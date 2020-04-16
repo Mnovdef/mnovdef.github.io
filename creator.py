@@ -17,21 +17,21 @@ def manual_create_hero():
 
     if bool(input("(True/False) Duo? ")):
         duo = True
-        legend, grail, season, five = False
+        legend, grail, season, five = False, False, False, False
     elif bool(input("(True/False) Legendary? ")):
         legend = True
-        duo, grail, season, five = False
+        duo, grail, season, five = False, False, False, False
     elif bool(input('(True / False) Is it a grail unit? ')):
         grail = True
-        duo, legend, season, five = False
+        duo, legend, season, five = False, False, False, False
     elif bool(input("(True/False) Seasonal? ")):
         season = True
-        duo, legend, grail, five = False
+        duo, legend, grail, five = False, False, False, False
     elif bool(input("(True/False) Five star exclusive? ")):
         five = True
-        duo, legend, grail, season = False
+        duo, legend, grail, season = False, False, False, False
     else:
-        duo, legend, grail, season, five = False
+        duo, legend, grail, season, five = False, False, False, False, False
 
     prf = bool(input("(True / False) Does it have a PRF? "))
     ass = int(input("Assist Cost: "))
@@ -227,7 +227,8 @@ def correct_heroes():
 
 
 
-correct_heroes()
+print(score_calc(manual_create_hero()))
+
 
 
 
