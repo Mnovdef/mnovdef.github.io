@@ -5,6 +5,7 @@ import urllib.request
 
 
 # manually asks for parameters to add a new hero
+# duo, legend, grail, season, five
 def manual_create_hero():
     name = input("Hero Name and Epithet: ")
     wp_type = input("(Red, Blue, Green, Colorless) (Sword/Axe/Lance/Staff, Tome, Breath, Beast, Dagger, Bow)\n"
@@ -13,14 +14,26 @@ def manual_create_hero():
                     'Movement type: ')
     bst = int(input("BST: "))
     duel_bst = int(input("Duel BST: "))
-    grail = bool(input('(True / False)\n'
-                'Is it a grail unit? '))
-    season = bool(input("(True/False) Seasonal? "))
-    legend = bool(input("(True/False) Legendary? "))
-    duo = bool(input("(True/False) Duo? "))
-    five = bool(input("(True/False) Five star exclusive? "))
-    prf = bool(input("(True / False)\n"
-                     "Does it have a PRF? "))
+
+    if bool(input("(True/False) Duo? ")):
+        duo = True
+        legend, grail, season, five = False
+    elif bool(input("(True/False) Legendary? ")):
+        legend = True
+        duo, grail, season, five = False
+    elif bool(input('(True / False) Is it a grail unit? ')):
+        grail = True
+        duo, legend, season, five = False
+    elif bool(input("(True/False) Seasonal? ")):
+        season = True
+        duo, legend, grail, five = False
+    elif bool(input("(True/False) Five star exclusive? ")):
+        five = True
+        duo, legend, grail, season = False
+    else:
+        duo, legend, grail, season, five = False
+
+    prf = bool(input("(True / False) Does it have a PRF? "))
     ass = int(input("Assist Cost: "))
     spec = int(input("Special Cost: "))
     a = int(input("A Skill Cost: "))
@@ -148,19 +161,19 @@ def hyper_fill():
     with open('./HTML/heroesdata.txt', encoding='utf-8') as fp:
         heroes = fp.readlines()
 
-    with open ('index.html') as html_file:
+    with open ('maxscoretable.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     for hero in heroes:
         soup = htlm_insert(soup, hero)
 
-    with open ('index.html', 'w', encoding='utf-8') as html_file:
+    with open ('maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
 
 # inserts the given tag inside the html code
 def html_manual_insert(score, wp_type, tag):
-    with open ('index.html') as html_file:
+    with open ('maxscoretable.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     row_index = 0
@@ -171,9 +184,8 @@ def html_manual_insert(score, wp_type, tag):
 
     soup.findAll('tr')[row_index].findAll('td')[weapon_index(wp_type)].append(tag)
 
-    with open ('index.html', 'w', encoding='utf-8') as html_file:
+    with open ('maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
-
     return
 
 
@@ -193,7 +205,7 @@ def manually_add_heroes():
 
 # temporary function to manually add a tag to all heroes already inserted into the html file
 def correct_heroes():
-    with open('index.html') as html_file:
+    with open('maxscoretable.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     with open('./HTML/heroesdata.txt') as data_file:
@@ -202,26 +214,16 @@ def correct_heroes():
     images = soup.findAll('img')
 
     for i in range(len(images)):
-        if ':' in images[i]['alt']:
-            try:
-                a1 = images[i]['data-legend'] == 'true'
-            except KeyError:
-                try:
-                    a2 = images[i]['data-duo'] == 'true'
-                except KeyError:
-                    try:
-                        a3 = images[i]['data-season'] == 'true'
-                    except KeyError:
-                        try:
-                            a4 = images[i]['data-grail'] == 'true'
-                        except KeyError:
-                            try:
-                                a5 = images[i]['data-five'] == 'true'
-                            except KeyError:
-                                soup.findAll('img')[i]['data-four'] = 'true'
+        attrs = images[i].attrs
+        if 'data-season' in attrs:
 
-    with open ('index.html', 'w', encoding='utf-8') as html_file:
+            if 'data-five' in attrs:
+                del images[i]['data-five']
+
+    with open ('maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
+
+
 
 
 
