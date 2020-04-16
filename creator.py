@@ -148,19 +148,19 @@ def hyper_fill():
     with open('./HTML/heroesdata.txt', encoding='utf-8') as fp:
         heroes = fp.readlines()
 
-    with open ('HTML/index.html') as html_file:
+    with open ('index.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     for hero in heroes:
         soup = htlm_insert(soup, hero)
 
-    with open ('HTML/index.html', 'w', encoding='utf-8') as html_file:
+    with open ('index.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
 
 # inserts the given tag inside the html code
 def html_manual_insert(score, wp_type, tag):
-    with open ('HTML/index.html') as html_file:
+    with open ('index.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     row_index = 0
@@ -171,7 +171,7 @@ def html_manual_insert(score, wp_type, tag):
 
     soup.findAll('tr')[row_index].findAll('td')[weapon_index(wp_type)].append(tag)
 
-    with open ('HTML/index.html', 'w', encoding='utf-8') as html_file:
+    with open ('index.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
     return
@@ -193,7 +193,7 @@ def manually_add_heroes():
 
 # temporary function to manually add a tag to all heroes already inserted into the html file
 def correct_heroes():
-    with open('HTML/index.html') as html_file:
+    with open('index.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     with open('./HTML/heroesdata.txt') as data_file:
@@ -220,7 +220,7 @@ def correct_heroes():
                             except KeyError:
                                 soup.findAll('img')[i]['data-four'] = 'true'
 
-    with open ('HTML/index.html', 'w', encoding='utf-8') as html_file:
+    with open ('index.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
 
