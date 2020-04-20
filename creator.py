@@ -15,25 +15,26 @@ def manual_create_hero():
     bst = int(input("BST: "))
     duel_bst = int(input("Duel BST: "))
 
-    if bool(input("(True/False) Duo? ")):
+    print("\nPress enter to say False, write anything to say True")
+    if bool(input("Duo? ")):
         duo = True
         legend, grail, season, five = False, False, False, False
-    elif bool(input("(True/False) Legendary? ")):
+    elif bool(input("Legendary? ")):
         legend = True
         duo, grail, season, five = False, False, False, False
-    elif bool(input('(True / False) Is it a grail unit? ')):
+    elif bool(input('Grail unit? ')):
         grail = True
         duo, legend, season, five = False, False, False, False
-    elif bool(input("(True/False) Seasonal? ")):
+    elif bool(input("Seasonal? ")):
         season = True
         duo, legend, grail, five = False, False, False, False
-    elif bool(input("(True/False) Five star exclusive? ")):
+    elif bool(input("Five star exclusive? ")):
         five = True
         duo, legend, grail, season = False, False, False, False
     else:
         duo, legend, grail, season, five = False, False, False, False, False
 
-    prf = bool(input("(True / False) Does it have a PRF? "))
+    prf = bool(input("Does it have a PRF? "))
     ass = int(input("Assist Cost: "))
     spec = int(input("Special Cost: "))
     a = int(input("A Skill Cost: "))
@@ -111,23 +112,30 @@ def create_tag(hero):
     soup = BeautifulSoup('', 'html.parser')
     clean_name = name.replace(':', '').replace(' ', '_').replace("'", '').replace('ç', 'c').replace('"', '')\
         .replace('í', 'i').replace('á', 'a').replace('é', 'e')
-    path = './assets/40px-' + clean_name + '_Face_FC.webp.png'
+    path = 'HTML/assets/45px-' + clean_name + '_Face_FC.webp.png'
     tag = soup.new_tag('img', title=name, alt=name, src=path, decoding="async", width="40", height="40")
 
     regfive = True
+    fourstar = True
 
     tag['data-move'] = hero['MoveType']
     if hero['Grail']:
+        regfive = False
+        fourstar = False
         tag['data-grail'] = 'true'
     if hero['Seasonal']:
+        regfive = False
+        fourstar = False
         tag['data-season'] = 'true'
     if hero['Legendary']:
         regfive = False
+        fourstar = False
         tag['data-legend'] = 'true'
     if hero['Duo']:
-        noregfive = False
+        regfive = False
+        fourstar = False
         tag['data-duo'] = 'true'
-    if not hero['FiveStar']:
+    if not hero['FiveStar'] and not regfive and fourstar:
         tag['data-four'] = 'true'
     elif regfive:
         tag['data-five'] = 'true'
@@ -224,10 +232,7 @@ def correct_heroes():
         html_file.write(soup.prettify())
 
 
-
-
-
-print(score_calc(manual_create_hero()))
+manually_add_heroes()
 
 
 
