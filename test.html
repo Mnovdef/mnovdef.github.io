@@ -1,71 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+ <script src="script.js" type="text/javascript"></script>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
    <body background="https://fehstuff.com/background.9ca0b2da89ff171f8b57.jpg" text="#faebd7">
-<table style="text-align:center;border-spacing:5px;">
 
-          <span style="background:#ffffcc;padding:5px;color:gray;font-weight:bold">
-         2020-04-06: Added "Journey Begins" Banner
-      </span>
+     <label for="searchbar">Search:</label>
+        <input type="text" id="searchbar" oninput="textsearch()"><br><br>
 
-    <tbody>
-        <td rowspan="4">
-            <button id="ResetButton" onclick="reset()">Reset filters</button>
-        </td>
-        <tr>
-            <th>Movement Type:</th>
-            <td>
-                <input checked="checked" id="ArmoredCheckbox" onclick="hideArmors()" type="checkbox"/>
-                <label for="ArmoredCheckbox">Armored</label>
-            </td>
-            <td>
-                <input checked="checked" id="FlyingCheckbox" onclick="hideFlying()" type="checkbox"/>
-                <label for="FlyingCheckbox">Flying</label>
-            </td>
-            <td>
-                <input checked="checked" id="InfantryCheckbox" onclick="hideInfantry()" type="checkbox"/>
-                <label for="InfantryCheckbox">Infantry</label>
-            </td>
-            <td>
-                <input checked="checked" id="CavalryCheckbox" onclick="hideCavalry()" type="checkbox"/>
-                <label for="CavalryCheckbox">Cavalry</label>
-            </td>
-        </tr>
-        <tr>
-            <th>Regular Heroes:</th>
-            <td colspan="2">
-                <input checked="checked" id="FiveStarCheckbox" onclick="hideFiveStar()" type="checkbox"/>
-                <label for="FiveStarCheckbox">Five Star Exclusive</label>
-            </td>
-            <td colspan="2">
-                <input checked="checked" id="FourStarCheckbox" onclick="hideFourStar()" type="checkbox"/>
-                <label for="FourStarCheckbox">Four Star Exclusive</label>
-            </td>
-        </tr>
-        <tr>
-            <th>Limited Heroes:</th>
-            <td>
-                <input checked="checked" id="DuoCheckbox" onclick="hideDuo()" type="checkbox"/>
-                <label for="DuoCheckbox">Duo Heroes</label>
-            </td>
-            <td>
-                <input checked="checked" id="LegendCheckbox" onclick="hideLegend()" type="checkbox"/>
-                <label for="LegendCheckbox">Legendary</label>
-            </td>
-            <td>
-                <input checked="checked" id="GrailCheckbox" onclick="hideGrail()" type="checkbox"/>
-                <label for="GrailCheckbox">Grail</label>
-            </td>
-            <td>
-                <input checked="checked" id="SeasonCheckbox" onclick="hideSeasonal()" type="checkbox"/>
-                <label for="SeasonCheckbox">Seasonal</label>
-            </td>
-        </tr>
-    </tbody>
-</table>
+
+
+
+
+
+      <img alt="Alm: Hero of Prophecy" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Alm_Hero_of_Prophecy_Face_FC.webp.png" title="Alm: Hero of Prophecy" width="40"/>
+      <img alt="Altina: Dawn's Trueblade" data-five="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/40px-Altina_Dawns_Trueblade_Face_FC.webp.png" title="Altina: Dawn's Trueblade" width="40"/>
+      <img alt="Arden: Strong and Tough" data-grail="true" data-move="Armored" decoding="async" height="40" src="HTML/assets/40px-Arden_Strong_and_Tough_Face_FC.webp.png" title="Arden: Strong and Tough" width="40"/>
+      <img alt="Ashnard: Mad King" data-grail="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/45px-Ashnard_Mad_King_Face_FC.webp.png" title="Ashnard: Mad King" width="40"/>
+      <img alt="Athena: Borderland Sword" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Athena_Borderland_Sword_Face_FC.webp.png" title="Athena: Borderland Sword" width="40"/>
+      <img alt="Ayra: Astra's Wielder" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Ayra_Astras_Wielder_Face_FC.webp.png" title="Ayra: Astra's Wielder" width="40"/>
+      <img alt="Black Knight: Sinister General" data-grail="true" data-move="Armored" decoding="async" height="40" src="HTML/assets/40px-Black_Knight_Sinister_General_Face_FC.webp.png" title="Black Knight: Sinister General" width="40"/>
+      <img alt="Byleth: Proven Professor" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Byleth_Proven_Professor_Face_FC.webp.png" title="Byleth: Proven Professor" width="40"/>
+      <img alt="Byleth: Tested Professor" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Byleth_Tested_Professor_Face_FC.webp.png" title="Byleth: Tested Professor" width="40"/>
+      <img alt="Caeda: Talys's Heart" data-four="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/40px-Caeda_Talyss_Heart_Face_FC.webp.png" title="Caeda: Talys's Heart" width="40"/>
+      <img alt="Camilla: Holiday Traveler" data-move="Flying" data-season="true" decoding="async" height="40" src="HTML/assets/40px-Camilla_Holiday_Traveler_Face_FC.webp.png" title="Camilla: Holiday Traveler" width="40"/>
+      <img alt="Catria: Mild Middle Sister" data-five="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/40px-Catria_Mild_Middle_Sister_Face_FC.webp.png" title="Catria: Mild Middle Sister" width="40"/>
+      <img alt="Celica: Imprisoned Soul" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Celica_Imprisoned_Soul_Face_FC.webp.png" title="Celica: Imprisoned Soul" width="40"/>
+      <img alt="Chrom: Exalted Prince" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Chrom_Exalted_Prince_Face_FC.webp.png" title="Chrom: Exalted Prince" width="40"/>
+      <img alt="Corrin: Fateful Prince" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Corrin_Fateful_Prince_Face_FC.webp.png" title="Corrin: Fateful Prince" width="40"/>
+      <img alt="Draug: Gentle Giant" data-four="true" data-move="Armored" decoding="async" height="40" src="HTML/assets/40px-Draug_Gentle_Giant_Face_FC.webp.png" title="Draug: Gentle Giant" width="40"/>
+      <img alt="Eirika: Restoration Lady" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Eirika_Restoration_Lady_Face_FC.webp.png" title="Eirika: Restoration Lady" width="40"/>
+      <img alt="Elincia: Lost Princess" data-five="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/40px-Elincia_Lost_Princess_Face_FC.webp.png" title="Elincia: Lost Princess" width="40"/>
+      <img alt="Fiora: Defrosted Illian" data-grail="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/40px-Fiora_Defrosted_Illian_Face_FC.webp.png" title="Fiora: Defrosted Illian" width="40"/>
+      <img alt="Fir: Sword Student" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Fir_Sword_Student_Face_FC.webp.png" title="Fir: Sword Student" width="40"/>
+      <img alt="Gray: Wry Comrade" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Gray_Wry_Comrade_Face_FC.webp.png" title="Gray: Wry Comrade" width="40"/>
+      <img alt="Gunnthra: Year's First Dream" data-move="Flying" data-season="true" decoding="async" height="40" src="HTML/assets/40px-Gunnthra_Years_First_Dream_Face_FC.webp.png" title="Gunnthra: Year's First Dream" width="40"/>
+      <img alt="Hana: Focused Samurai" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Hana_Focused_Samurai_Face_FC.webp.png" title="Hana: Focused Samurai" width="40"/>
+      <img alt="Helbindi: Seaside Scourge" data-move="Infantry" data-season="true" decoding="async" height="40" src="HTML/assets/40px-Helbindi_Seaside_Scourge_Face_FC.webp.png" title="Helbindi: Seaside Scourge" width="40"/>
+      <img alt="Hinata: Wild Samurai" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Hinata_Wild_Samurai_Face_FC.webp.png" title="Hinata: Wild Samurai" width="40"/>
+      <img alt="Hrid: Resolute Prince" data-move="Flying" data-season="true" decoding="async" height="40" src="HTML/assets/40px-Hrid_Resolute_Prince_Face_FC.webp.png" title="Hrid: Resolute Prince" width="40"/>
+      <img alt="Ike: Vanguard Legend" data-legend="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Ike_Vanguard_Legend_Face_FC.webp.png" title="Ike: Vanguard Legend" width="40"/>
+      <img alt="Ike: Young Mercenary" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Ike_Young_Mercenary_Face_FC.webp.png" title="Ike: Young Mercenary" width="40"/>
+      <img alt="Joshua: Tempest King" data-grail="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Joshua_Tempest_King_Face_FC.webp.png" title="Joshua: Tempest King" width="40"/>
+      <img alt="Karel: Sword Demon" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Karel_Sword_Demon_Face_FC.webp.png" title="Karel: Sword Demon" width="40"/>
+      <img alt="Karla: Sword Vassal" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Karla_Sword_Vassal_Face_FC.webp.png" title="Karla: Sword Vassal" width="40"/>
+      <img alt="Laegjarn: Sheathed Steel" data-five="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/40px-Laegjarn_Sheathed_Steel_Face_FC.webp.png" title="Laegjarn: Sheathed Steel" width="40"/>
+      <img alt="Laevatein: Searing Steel" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Laevatein_Searing_Steel_Face_FC.webp.png" title="Laevatein: Searing Steel" width="40"/>
+      <img alt="Laslow: Dancing Duelist" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Laslow_Dancing_Duelist_Face_FC.webp.png" title="Laslow: Dancing Duelist" width="40"/>
+      <img alt="Lene: Yearning Dancer" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Lene_Yearning_Dancer_Face_FC.webp.png" title="Lene: Yearning Dancer" width="40"/>
+      <img alt="Lloyd: White Wolf" data-grail="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Lloyd_White_Wolf_Face_FC.webp.png" title="Lloyd: White Wolf" width="40"/>
+      <img alt="Lon'qu: Solitary Blade" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Lonqu_Solitary_Blade_Face_FC.webp.png" title="Lon'qu: Solitary Blade" width="40"/>
+      <img alt="Lucina: Future Witness" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Lucina_Future_Witness_Face_FC.webp.png" title="Lucina: Future Witness" width="40"/>
+      <img alt="Lyn: Lady of the Plains" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Lyn_Lady_of_the_Plains_Face_FC.webp.png" title="Lyn: Lady of the Plains" width="40"/>
+      <img alt="Mareeta: The Blade's Pawn" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Mareeta_The_Blades_Pawn_Face_FC.webp.png" title="Mareeta: The Blade's Pawn" width="40"/>
+      <img alt="Marisa: Crimson Flash" data-grail="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Marisa_Crimson_Flash_Face_FC.webp.png" title="Marisa: Crimson Flash" width="40"/>
+      <img alt="Marth: Altean Prince" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Marth_Altean_Prince_Face_FC.webp.png" title="Marth: Altean Prince" width="40"/>
+      <img alt="Marth: Enigmatic Blade" data-grail="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Marth_Enigmatic_Blade_Face_FC.webp.png" title="Marth: Enigmatic Blade" width="40"/>
+      <img alt="Mia: Lady of Blades" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Mia_Lady_of_Blades_Face_FC.webp.png" title="Mia: Lady of Blades" width="40"/>
+      <img alt="Navarre: Scarlet Sword" data-grail="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Navarre_Scarlet_Sword_Face_FC.webp.png" title="Navarre: Scarlet Sword" width="40"/>
+      <img alt="Ogma: Loyal Blade" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Ogma_Loyal_Blade_Face_FC.webp.png" title="Ogma: Loyal Blade" width="40"/>
+      <img alt="Olivia: Blushing Beauty" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Olivia_Blushing_Beauty_Face_FC.webp.png" title="Olivia: Blushing Beauty" width="40"/>
+      <img alt="Olivia: Sky-High Dancer" data-five="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/40px-Olivia_Sky-High_Dancer_Face_FC.webp.png" title="Olivia: Sky-High Dancer" width="40"/>
+      <img alt="Owain: Chosen One" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Owain_Chosen_One_Face_FC.webp.png" title="Owain: Chosen One" width="40"/>
+      <img alt="Palla: Eldest Whitewing" data-four="true" data-move="Flying" decoding="async" height="40" src="HTML/assets/40px-Palla_Eldest_Whitewing_Face_FC.webp.png" title="Palla: Eldest Whitewing" width="40"/>
+      <img alt="Phina: Roving Dancer" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Phina_Roving_Dancer_Face_FC.webp.png" title="Phina: Roving Dancer" width="40"/>
+      <img alt="Roy: Young Lion" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Roy_Young_Lion_Face_FC.webp.png" title="Roy: Young Lion" width="40"/>
+      <img alt="Rutger: Lone Swordsman" data-grail="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Rutger_Lone_Swordsman_Face_FC.webp.png" title="Rutger: Lone Swordsman" width="40"/>
+      <img alt="Ryoma: Peerless Samurai" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Ryoma_Peerless_Samurai_Face_FC.webp.png" title="Ryoma: Peerless Samurai" width="40"/>
+      <img alt="Saber: Driven Mercenary" data-five="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Saber_Driven_Mercenary_Face_FC.webp.png" title="Saber: Driven Mercenary" width="40"/>
+      <img alt="Selena: Cutting Wit" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Selena_Cutting_Wit_Face_FC.webp.png" title="Selena: Cutting Wit" width="40"/>
+      <img alt="Seliph: Heir of Light" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Seliph_Heir_of_Light_Face_FC.webp.png" title="Seliph: Heir of Light" width="40"/>
+      <img alt="Sigrun: Steadfast Bride" data-move="Flying" data-season="true" decoding="async" height="40" src="HTML/assets/40px-Sigrun_Steadfast_Bride_Face_FC.webp.png" title="Sigrun: Steadfast Bride" width="40"/>
+      <img alt="Silvia: Traveling Dancer" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Silvia_Traveling_Dancer_Face_FC.webp.png" title="Silvia: Traveling Dancer" width="40"/>
+      <img alt="Soleil: Adorable Adorer" data-four="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Soleil_Adorable_Adorer_Face_FC.webp.png" title="Soleil: Adorable Adorer" width="40"/>
+      <img alt="Tobin: The Clueless One" data-grail="true" data-move="Infantry" decoding="async" height="40" src="HTML/assets/40px-Tobin_The_Clueless_One_Face_FC.webp.png" title="Tobin: The Clueless One" width="40"/>
+      <img alt="Zephiel: The Liberator" data-grail="true" data-move="Armored" decoding="async" height="40" src="HTML/assets/40px-Zephiel_The_Liberator_Face_FC.webp.png" title="Zephiel: The Liberator" width="40"/>
+
+
+
 
 </body>
 </html>

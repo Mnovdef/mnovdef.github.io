@@ -201,3 +201,16 @@ function reset() {
 }
 
 
+function textsearch() {
+    var images = document.getElementsByTagName('img');
+    var text = document.getElementById('searchbar').value;
+
+    for (let index=0; index < images.length; index++) {
+        if ("true".localeCompare(images[index].dataset.fix) !== 0) {
+            if (!(images[index].alt.toLowerCase().includes(text.toLowerCase()))) {
+                images[index].style.display = 'none';
+            }
+            else images[index].style.display = 'inline';
+        }
+    }
+}
