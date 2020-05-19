@@ -190,6 +190,8 @@ function filterone() {
 function reset() {
     var checkboxes = document.getElementsByTagName('input');
     var images = document.getElementsByTagName('img');
+    var text = document.getElementById('searchbar');
+
 
     for (let index=0; index < images.length; index++) {
         images[index].style.display = 'inline';
@@ -198,6 +200,8 @@ function reset() {
     for (let index=0; index < checkboxes.length; index++) {
         checkboxes[index].checked = 'true';
     }
+
+    text.value = ""
 }
 
 

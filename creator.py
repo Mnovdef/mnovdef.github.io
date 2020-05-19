@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import urllib.request
 
 
-# manually asks for parameters to add a new hero
-# duo, legend, grail, season, five
+# manually asks for parameters to create a new hero object
+# called by manually_add_heroes
 def manual_create_hero():
     name = input("Hero Name and Epithet: ")
     wp_type = input("(Red, Blue, Green, Colorless) (Sword/Axe/Lance/Staff, Tome, Breath, Beast, Dagger, Bow)\n"
@@ -71,7 +71,8 @@ def weapon_index(weapon: str):
     return value
 
 
-# takes bst and other data out of link url, and dumps it into herosdata.txt
+# automate
+# takes bst and other data out of link url, and dumps it into heroesdata.txt
 def bst_extractor():
     url = 'https://feheroes.gamepedia.com/Level_40_stats_table'
     page = urllib.request.urlopen(url).read()
@@ -106,7 +107,7 @@ def bst_extractor():
             fp.write(hero + '\n')
 
 
-# creates a tag given a hero name
+# creates the HTML tag given a hero object
 def create_tag(hero):
     name = hero['Name']
     soup = BeautifulSoup('', 'html.parser')
@@ -143,11 +144,11 @@ def create_tag(hero):
     return tag
 
 
+# automate
 # insert a tag into a specified position
-# used only for mass insert
 def htlm_insert(soup: BeautifulSoup, file_row: str):
     name, mv_type, bst, wp_type, prf = file_row.split('+')
-    herobj = create_max_hero(name, wp_type, mv_type, 0, int(bst), 0, bool(prf), 0, 0, 0, 0, 0, )
+    herobj = create_max_hero(name, wp_type, mv_type, 0, int(bst), 0, bool(prf), 0, 0, 0, 0, 0, False, False, False, False)
     score = score_calc(herobj)
 
     row_index = 0
@@ -156,15 +157,13 @@ def htlm_insert(soup: BeautifulSoup, file_row: str):
         if str(score) in rows[i].th.string:
             row_index = i
 
-
-
     tag = create_tag(name)
     soup.findAll('tr')[row_index].findAll('td')[weapon_index(wp_type)].append(tag)
     return soup
 
 
-# the great first fill of the html file
-# used only for mass insert
+# automate
+# the great first fill of the html file, used only for mass insert
 def hyper_fill():
     with open('./HTML/heroesdata.txt', encoding='utf-8') as fp:
         heroes = fp.readlines()
@@ -179,6 +178,7 @@ def hyper_fill():
         html_file.write(soup.prettify())
 
 
+# automate
 # inserts the given tag inside the html code
 def html_manual_insert(score, wp_type, tag):
     with open ('maxscoretable.html') as html_file:
@@ -194,9 +194,19 @@ def html_manual_insert(score, wp_type, tag):
 
     with open ('maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
+
+
+    # cleaning the html page
+    with open('./maxscoretable.html', encoding='utf-8') as fp:
+        html = fp.read()
+
+    with open('./maxscoretable.html', 'w', encoding='utf-8') as html_file:
+        html_file.write(html.replace('<td>\n               </td>', '<td></td>'))
+
     return
 
 
+# main function, the one to call
 # function to call if you wanna manually add a hero into the html file
 def manually_add_heroes():
     hero = manual_create_hero()
@@ -233,15 +243,3 @@ def correct_heroes():
 
 
 manually_add_heroes()
-
-
-
-
-# manually_add_heroes()
-
-# tag = soup.new_tag('img', title="Alm: Imperial Ascent", alt="Alm: Imperial Ascent", src="./assets/40px-Alm_Imperial_Ascent_Face_FC.webp.png", decoding="async", width="40", height="40")
-
-# DO A GREAT FILLING
-# REFACTOR AND CLEAN HTML
-# DO A PROGRAM THAT DOESNT EDIT, JUST GIVE TAGS
-
