@@ -7,76 +7,110 @@ from pprint import pprint
 def my_urlopen(url: str):
     return urlopen(Request(url, headers={'User-Agent': 'Mozilla/5.0'})).read()
 
+# my_urlopen but for gamepedia
+# this does not work if url contains weird characters
 def gamepedia(hero: str):
-    return urlopen(Request('https://feheroes.gamepedia.com/' + quote(hero))).read()
+    return urlopen(Request('https://feheroes.gamepedia.com/' + quote(hero.replace('\n', '')))).read()
+
+# returns 170 if the hero has access to a Duel skill
+def has_duel_bst(wp_type: str, mv_type: str):
+    return 170 if 'Infantry' in mv_type or ('Flying' in mv_type and 'Colorless' not in wp_type) else 0
+
+# well, prints hero's info
+def print_hero_info(name, wp_type, mv_type, bst, duel_bst, prf, ass, spec, a, b, c, season, legend, duo, five, grail):
+    print('name: {}'.format(name))
+    print('wp_type: {}'.format(wp_type))
+    print('mv_type: {}'.format(mv_type))
+    print('bst: {}'.format(bst))
+    print('duel_bst: {}'.format(duel_bst))
+    print('prf: {}'.format(prf))
+    print('ass: {}'.format(ass))
+    print('spec: {}'.format(spec))
+    print('a: {}'.format(a))
+    print('b: {}'.format(b))
+    print('c: {}'.format(c))
+    print('duo: {}'.format(duo))
+    print('legend: {}'.format(legend))
+    print('grail: {}'.format(grail))
+    print('season: {}'.format(season))
+    print('five: {}'.format(five))
+    print()
 
 
-# get heroes list from file newheroes.txt
-with open('./HTML/newheroes.txt') as data_file:
-    heroes_list = data_file.readlines()
+# extracts the costs of heroes passives and returns them in a list
+def passive_cost_extractor(row_list: list):
+    costs = {'A': 0, 'B': 0, 'C': 0}
+
+    skill_type_1 = row_list[1].find_all('td')[-1].string
+    rowspan_1 = int(row_list[1].find_all('td')[-1]['rowspan'])
+    skill_cost_1 = int(row_list[rowspan_1].find_all('td')[3].string)
+
+    costs[skill_type_1] = skill_cost_1
+
+    skill_type_2 = row_list[1+rowspan_1].find_all('td')[-1].string
+    rowspan_2 = int(row_list[1+rowspan_1].find_all('td')[-1]['rowspan'])
+    skill_cost_2 = int(row_list[rowspan_1+rowspan_2].find_all('td')[3].string)
+    costs[skill_type_2] = skill_cost_2
+
+    try:
+        skill_type_3 = row_list[1 + rowspan_1 + rowspan_2].find_all('td')[-1].string
+        rowspan_3 = int(row_list[1 + rowspan_1 + rowspan_2].find_all('td')[-1]['rowspan'])
+
+        skill_cost_3 = int(row_list[rowspan_1 + rowspan_2 + rowspan_3].find_all('td')[3].string)
+        costs[skill_type_3] = skill_cost_3
+    except IndexError:
+        pass
+
+    return [costs['A'], costs['B'], costs['C']]
 
 
-# TODO for each hero
-# name wp_type mv_type bst duel_bst grail prf ass spec a b c season legend duo five
-# xxxx
-for hero in heroes_list:
-    # TODO for each hero
+# this function extracts the hero's data from gamepedia's page
+def hero_web_hunter(hero_name: str):
+    soup = BeautifulSoup(gamepedia(hero_name), 'html.parser')
 
-    # name wp_type mv_type bst duel_bst grail prf ass spec a b c season legend duo five
-    soup = BeautifulSoup(gamepedia(hero), 'html.parser')
-
-    name = hero
     hero_table_rows = soup.find('table', {'class': 'wikitable hero-infobox'}).tbody.find_all('tr')
+    legend, duo, grail, season, five = False, False, False, False, False
+    prf, ass, spec, a, b, c = False, 0, 0, 0, 0, 0
+    wp_type, mv_type = "", ""
+    duel_bst = 0
 
-    #pprint(hero_table_rows)
+    name = hero_name.replace('\n', '')
+    bst = sum(
+        [int(x.split('/')[1]) for x in [td.string for td in soup.find_all('table')[4].tbody.find_all('tr')[-1]][1:-1]])
 
-    wp_type = ""
     for row in hero_table_rows:
-        wp_type = row if 'Weapon Type' in str(row) else 0
-        print(wp_type)
+        wp_type = row.td.a.string if 'Weapon Type' in str(row) else wp_type
+        mv_type = row.td.a.string if 'Move Type' in str(row) else mv_type
+        duo = duo or 'Duo' in str(row)
+        legend = legend or 'Legendary' in str(row)
+        grail = grail or 'Grand Hero Battle' in str(row) or 'Tempest Trials' in str(row)
+        season = season or 'Focus —' in str(row) and not duo and not legend
+        five = five or ('4<img alt="★"' not in str(row) and '5<img alt="★"' in str(
+            row)) and not duo and not season and not legend
 
-    #pprint(wp_type)
+        duel_bst = max(duel_bst,
+                       [int(s) for s in str(row).split() if s.isdigit()][1] if 'Standard Effect 1: Duel' in str(
+                           row) else 0, has_duel_bst(wp_type, mv_type))
 
+    # cleaning
+    wp_type = wp_type.replace('Sword', 'Red Sword').replace('Lance', 'Blue Lance') \
+        .replace('Axe', 'Green Axe').replace('Staff', 'Colorless Staff')
 
-#soup = BeautifulSoup(gamepress(heroes_hrefs[0]), 'html.parser')
+    # Might = Weapon, Range = Assist, Cooldown = Special, Type = Passives
+    tables = soup.find_all('table', {'class': 'wikitable default unsortable skills-table'})
+    for table in tables:
+        if 'Might' in table.tbody.tr.find_all('th')[1].string:
+            prf = '400' in str(table.tbody.find_all('tr')[-1])
 
-#soup = BeautifulSoup(my_urlopen('https://gamepress.gg/feheroes/hero/legendary-chrom'), 'html.parser')
+        if 'Range' in table.tbody.tr.find_all('th')[1].string:
+            ass = int(table.tbody.find_all('tr')[-1].find_all('td')[3].string)
 
-# name = soup.find('table', {'id': 'hero-details-table'}).tr.th.find('span').string.split(' ')[-1] + soup.find('table', {'id': 'hero-details-table'}).tr.th.find_all('span')[1].string.replace(' - ', ': ')
-# mv_type = soup.find('div', {'class': 'taxonomy-term vocabulary-movement'}).h2.a.div.string
-# wp_type = soup.find('div', {'class': 'taxonomy-term vocabulary-attribute'}).h2.a.div.string
-# bst = int(soup.find_all('span', {'class': 'max-stats-number'})[0].string)
-# prf = '400' in soup.find_all('div', {'id': 'weapon-skills'})[0].tbody.find_all('tr')[-1].find_all('td')[1].string
-#
-# try:
-#     ass = int(soup.find_all('div', {'id': 'command-skills'})[0].tbody.find_all('tr')[-1].find_all('td')[2].string)
-# except IndexError:
-#     ass = 0
-#
-# try:
-#     spec = int(soup.find_all('div', {'id': 'special-skills'})[0].tbody.find_all('tr')[-1].find_all('td')[1].string)
-# except IndexError:
-#     spec = 0
-#
-# a, b, c = 0, 0, 0
-# passive_rows = soup.find('div', {'id': 'passive-skills'}).div.div.div.table.tbody.find_all('tr')
-# for row in passive_rows:
-#     tds = row.find_all('td')
-#     pprint(tds[1])
-#     a = int(tds[1].string) if 'A' in tds[2].div.string else a
-#     b = int(tds[1].string) if 'B' in tds[2].div.string else b
-#     c = int(tds[1].string) if 'C' in tds[2].div.string else c
-#
-# pprint(a)
-# print(b)
-# print(c)
+        if 'Cooldown' in table.tbody.tr.find_all('th')[1].string:
+            spec = int(table.tbody.find_all('tr')[-1].find_all('td')[3].string)
 
+        if 'Type' in table.tbody.tr.find_all('th')[-1].string:
+            a, b, c = passive_cost_extractor(table.find_all('tr'))
 
+    return [name, wp_type, mv_type, bst, duel_bst, grail, prf, ass, spec, a, b, c, season, legend, duo, five]
 
-
-
-
-
-
-
-#GAMEPRESS DATA IS FUCKING WRONG, DONT USE IT PLS
+    # print_hero_info(name, wp_type, mv_type, bst, duel_bst, prf, ass, spec, a, b, c, season, legend, duo, five, grail)

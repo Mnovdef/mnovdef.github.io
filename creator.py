@@ -1,7 +1,19 @@
-import math
-from pprint import pprint
 from bs4 import BeautifulSoup
+from pprint import pprint
+import HTML.auto_updater
 import urllib.request
+import math
+
+# cleans the <td>s inside maxscoretable.html
+def code_cleaner():
+    with open('./maxscoretable.html', encoding='utf-8') as fp:
+        html = fp.read()
+
+    with open('./maxscoretable.html', 'w', encoding='utf-8') as html_file:
+        html_file.write(html.replace('<td>\n               </td>', '<td></td>')
+                        .replace('<td>\n      </td>', '<td></td>'))
+
+    print('Page Cleaned')
 
 
 # manually asks for parameters to create a new hero object
@@ -184,25 +196,19 @@ def html_manual_insert(score, wp_type, tag):
     with open ('maxscoretable.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
+    rows = soup.find('table', {'class': 'heroes_table'}).findAll('tr')
+
     row_index = 0
-    rows = soup.findAll('tr')
     for i in range(len(rows)):
         if str(score) in rows[i].th.string:
             row_index = i
 
-    soup.findAll('tr')[row_index].findAll('td')[weapon_index(wp_type)].append(tag)
+    rows[row_index].findAll('td')[weapon_index(wp_type)].append(tag)
 
     with open ('maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
-
-    # cleaning the html page
-    with open('./maxscoretable.html', encoding='utf-8') as fp:
-        html = fp.read()
-
-    with open('./maxscoretable.html', 'w', encoding='utf-8') as html_file:
-        html_file.write(html.replace('<td>\n               </td>', '<td></td>'))
-
+    code_cleaner()
     return
 
 
@@ -241,5 +247,31 @@ def correct_heroes():
     with open ('maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
+
+
+def auto_create_from_file():
+    with open('./HTML/newheroes.txt') as data_file:
+        heroes_list = data_file.readlines()
+
+    for listed_hero in heroes_list:
+        hero_params = HTML.auto_updater.hero_web_hunter(listed_hero)
+        hero = create_max_hero(hero_params[0], hero_params[1], hero_params[2], hero_params[3], hero_params[4],
+                               hero_params[5], hero_params[6], hero_params[7], hero_params[8], hero_params[9],
+                               hero_params[10], hero_params[11], hero_params[12], hero_params[13], hero_params[14],
+                               hero_params[15])
+        score = score_calc(hero)
+        tag = create_tag(hero)
+
+        print('\n\n{} scores {}\n{}'.format(hero['Name'], score, tag))
+
+        response = input('(Y/N) Automatically add? ').upper()
+        if 'Y' in response:
+
+            html_manual_insert(score, hero['WeaponType'], tag)
+
+    return
+
+# code_cleaner()
+# auto_create_from_file()
 
 manually_add_heroes()
