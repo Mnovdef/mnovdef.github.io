@@ -7,14 +7,17 @@ from pprint import pprint
 def my_urlopen(url: str):
     return urlopen(Request(url, headers={'User-Agent': 'Mozilla/5.0'})).read()
 
+
 # my_urlopen but for gamepedia
 # this does not work if url contains weird characters
 def gamepedia(hero: str):
     return urlopen(Request('https://feheroes.gamepedia.com/' + quote(hero.replace('\n', '')))).read()
 
+
 # returns 170 if the hero has access to a Duel skill
 def has_duel_bst(wp_type: str, mv_type: str):
     return 170 if 'Infantry' in mv_type or ('Flying' in mv_type and 'Colorless' not in wp_type) else 0
+
 
 # well, prints hero's info
 def print_hero_info(name, wp_type, mv_type, bst, duel_bst, prf, ass, spec, a, b, c, season, legend, duo, five, grail):

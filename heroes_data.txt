@@ -1,0 +1,524 @@
+Hector: Dressed-Up Duo # HTML/assets/40px-Hector_Dressed-Up_Duo_Face_FC.webp.png # 756 # 0 # Armored # data-duo
+Idunn: Dragonkin Duo # HTML/assets/40px-Idunn_Dragonkin_Duo_Face_FC.webp.png # 756 # 4 # Armored # data-duo
+Ephraim: Dynastic Duo # HTML/assets/40px-Ephraim_Dynastic_Duo_Face_FC.webp.png # 756 # 6 # Infantry # data-duo
+Palla: Sisterly Trio # HTML/assets/45px-Palla_Sisterly_Trio_Face_FC.webp.png # 756 # 6 # Flying # data-duo
+Chrom: Crowned Exalt # HTML/assets/40px-Chrom_Crowned_Exalt_Face_FC.webp.png # 756 # 7 # Infantry # data-legend
+Alfonse: Askran Duo # HTML/assets/40px-Alfonse_Askran_Duo_Face_FC.webp.png # 756 # 9 # Infantry # data-duo
+Alm: Lovebird Duo # HTML/assets/40px-Alm_Lovebird_Duo_Face_FC.webp.png # 756 # 12 # Infantry # data-duo
+Edelgard: Flame Emperor # HTML/assets/45px-Edelgard_Flame_Emperor_Face_FC.webp.png # 756 # 12 # Armored # data-legend
+Sothis: Silver Specter # HTML/assets/40px-Sothis_Silver_Specter_Face_FC.webp.png # 756 # 16 # Armored # data-season
+Marth: Royal Altean Duo # HTML/assets/40px-Marth_Royal_Altean_Duo_Face_FC.webp.png # 756 # 19 # Armored # data-duo
+Micaiah: Dawn Wind's Duo # HTML/assets/45px-Micaiah_Dawn_Winds_Duo_Face_FC.webp.png # 756 # 21 # Flying # data-duo
+Lif: Lethal Swordsman # HTML/assets/40px-Lif_Lethal_Swordsman_Face_FC.webp.png # 754 # 0 # Infantry # data-five
+Zelgius: Jet-Black General # HTML/assets/40px-Zelgius_Jet-Black_General_Face_FC.webp.png # 754 # 0 # Armored # data-five
+Zephiel: Winter's Crown # HTML/assets/40px-Zephiel_Winters_Crown_Face_FC.webp.png # 754 # 0 # Armored # data-season
+Idunn: Dark Priestess # HTML/assets/40px-Idunn_Dark_Priestess_Face_FC.webp.png # 754 # 4 # Armored # data-five
+Myrrh: Spooky Monster # HTML/assets/40px-Myrrh_Spooky_Monster_Face_FC.webp.png # 754 # 4 # Armored # data-season
+Hector: Brave Warrior # HTML/assets/40px-Hector_Brave_Warrior_Face_FC.webp.png # 754 # 6 # Armored # data-five
+Forsyth: Loyal Lieutenant # HTML/assets/40px-Forsyth_Loyal_Lieutenant_Face_FC.webp.png # 754 # 6 # Armored # data-five
+Rudolf: Emperor of Rigel # HTML/assets/40px-Rudolf_Emperor_of_Rigel_Face_FC.webp.png # 754 # 6 # Armored # data-season
+Julia: Crusader of Light # HTML/assets/40px-Julia_Crusader_of_Light_Face_FC.webp.png # 754 # 9 # Infantry # data-legend
+Corrin: Bloodbound Beast # HTML/assets/45px-Corrin_Bloodbound_Beast_Face_FC.webp.png # 754 # 10 # Infantry # data-five
+Tiki: Legendary Dragon # HTML/assets/40px-Tiki_Legendary_Dragon_Face_FC.webp.png # 754 # 10 # Armored # data-legend
+Flame Emperor: Bringer of War # HTML/assets/40px-Flame_Emperor_Bringer_of_War_Face_FC.webp.png # 754 # 12 # Armored # data-grail
+Mamori: Microwavin' Idol # HTML/assets/40px-Mamori_Microwavin_Idol_Face_FC.webp.png # 754 # 12 # Armored # data-five
+Surtr: Ruler of Flame # HTML/assets/40px-Surtr_Ruler_of_Flame_Face_FC.webp.png # 754 # 12 # Armored # data-five
+Celica: Queen of Valentia # HTML/assets/40px-Celica_Queen_of_Valentia_Face_FC.webp.png # 754 # 15 # Infantry # data-legend
+Fae: Holiday Dear # HTML/assets/40px-Fae_Holiday_Dear_Face_FC.webp.png # 754 # 16 # Armored # data-season
+Nagi: Dragon Avatar # HTML/assets/40px-Nagi_Dragon_Avatar_Face_FC.webp.png # 754 # 16 # Armored # data-five
+Leif: Unifier of Thracia # HTML/assets/40px-Leif_Unifier_of_Thracia_Face_FC.webp.png # 754 # 19 # Cavalry # data-legend
+Faye: Drawn Heartstring # HTML/assets/40px-Faye_Drawn_Heartstring_Face_FC.webp.png # 754 # 19 # Armored # data-season
+Tiki: Torpid Dragon # HTML/assets/40px-Tiki_Torpid_Dragon_Face_FC.webp.png # 754 # 22 # Armored # data-five
+Alm: Imperial Ascent # HTML/assets/40px-Alm_Imperial_Ascent_Face_FC.webp.png # 752 # 0 # Infantry # data-five
+Astram: Midia's Hero # HTML/assets/40px-Astram_Midias_Hero_Face_FC.webp.png # 752 # 0 # Infantry # data-grail
+Bartre: Earsome Warrior # HTML/assets/40px-Bartre_Earsome_Warrior_Face_FC.webp.png # 752 # 0 # Infantry # data-grail
+Caeda: Princess of Talys # HTML/assets/45px-Caeda_Princess_of_Talys_Face_FC.webp.png # 752 # 0 # Flying # data-season
+Celica: Warrior Priestess # HTML/assets/40px-Celica_Warrior_Priestess_Face_FC.webp.png # 752 # 0 # Infantry # data-five
+Eyvel: Mistress of Fiana # HTML/assets/40px-Eyvel_Mistress_of_Fiana_Face_FC.webp.png # 752 # 0 # Infantry # data-five
+Eliwood: Blazing Knight # HTML/assets/40px-Eliwood_Blazing_Knight_Face_FC.webp.png # 752 # 0 # Cavalry # data-legend
+Ike: Stalwart Heart # HTML/assets/40px-Ike_Stalwart_Heart_Face_FC.webp.png # 752 # 0 # Armored # data-season
+Ike: Zeal Unleashed # HTML/assets/45px-Ike_Zeal_Unleashed_Face_FC.webp.png # 752 # 0 # Infantry # data-five
+Itsuki: Finding a Path # HTML/assets/40px-Itsuki_Finding_a_Path_Face_FC.webp.png # 752 # 0 # Infantry # data-grail
+Larcei: Keen Kin # HTML/assets/40px-Larcei_Keen_Kin_Face_FC.webp.png # 752 # 0 # Infantry # data-five
+Leif: Prince of Leonster # HTML/assets/40px-Leif_Prince_of_Leonster_Face_FC.webp.png # 752 # 0 # Infantry # data-five
+Mareeta: Sword of Stars # HTML/assets/40px-Mareeta_Sword_of_Stars_Face_FC.webp.png # 752 # 0 # Infantry # data-five
+Marth: Hero-King # HTML/assets/40px-Marth_Hero-King_Face_FC.webp.png # 752 # 0 # Infantry # data-legend
+Marth: Legacied Hero # HTML/assets/45px-Marth_Legacied_Hero_Face_FC.webp.png # 752 # 0 # Infantry # data-season
+Oboro: Fierce Bride-to-Be # HTML/assets/45px-Oboro_Fierce_Bride-to-Be_Face_FC.webp.png # 752 # 0 # Infantry # data-season
+Roy: Blazing Lion # HTML/assets/40px-Roy_Blazing_Lion_Face_FC.webp.png # 752 # 0 # Infantry # data-legend
+Ryoma: Supreme Samurai # HTML/assets/40px-Ryoma_Supreme_Samurai_Face_FC.webp.png # 752 # 0 # Flying # data-legend
+Shannan: Wielder of Astra # HTML/assets/40px-Shannan_Wielder_of_Astra_Face_FC.webp.png # 752 # 0 # Infantry # data-five
+Julia: Heart Usurped # HTML/assets/45px-Julia_Heart_Usurped_Face_FC.webp.png # 752 # 3 # Infantry # data-five
+Nah: Little Miss # HTML/assets/40px-Nah_Little_Miss_Face_FC.webp.png # 752 # 4 # Infantry # data-five
+Sothis: Girl on the Throne # HTML/assets/40px-Sothis_Girl_on_the_Throne_Face_FC.webp.png # 752 # 4 # Infantry # data-five
+Eliwood: Devoted Love # HTML/assets/40px-Eliwood_Devoted_Love_Face_FC.webp.png # 752 # 6 # Armored # data-grail
+Ephraim: Sparkling Gallantly # HTML/assets/40px-Ephraim_Sparkling_Gallantly_Face_FC.webp.png # 752 # 6 # Armored # data-season
+Hardin: Dark Emperor # HTML/assets/40px-Hardin_Dark_Emperor_Face_FC.webp.png # 752 # 6 # Armored # data-five
+Kjelle: Fair Fighter # HTML/assets/40px-Kjelle_Fair_Fighter_Face_FC.webp.png # 752 # 6 # Armored # data-five
+Lukas: Buffet for One # HTML/assets/40px-Lukas_Buffet_for_One_Face_FC.webp.png # 752 # 6 # Armored # data-season
+Robin: Festive Tactician # HTML/assets/40px-Robin_Festive_Tactician_Face_FC.webp.png # 752 # 6 # Armored # data-season
+Valbar: Open and Honest # HTML/assets/40px-Valbar_Open_and_Honest_Face_FC.webp.png # 752 # 6 # Armored # data-four
+Lilith: Astral Daughter # HTML/assets/40px-Lilith_Astral_Daughter_Face_FC.webp.png # 752 # 10 # Flying # data-five
+Amelia: Rose of the War # HTML/assets/40px-Amelia_Rose_of_the_War_Face_FC.webp.png # 752 # 12 # Armored # data-five
+Annette: Overachiever # HTML/assets/40px-Annette_Overachiever_Face_FC.webp.png # 752 # 12 # Infantry # data-five
+Chrom: Gifted Leader # HTML/assets/40px-Chrom_Gifted_Leader_Face_FC.webp.png # 752 # 12 # Armored # data-season
+Dorcas: Pumpkin Smasher # HTML/assets/40px-Dorcas_Pumpkin_Smasher_Face_FC.webp.png # 752 # 12 # Armored # data-grail
+Echidna: Unyielding Idealist # HTML/assets/40px-Echidna_Unyielding_Idealist_Face_FC.webp.png # 752 # 12 # Infantry # data-four
+Ephraim: Sacred Twin Lord # HTML/assets/40px-Ephraim_Sacred_Twin_Lord_Face_FC.webp.png # 752 # 12 # Armored # data-five
+Felicia: Off the Menu # HTML/assets/40px-Felicia_Off_the_Menu_Face_FC.webp.png # 752 # 12 # Armored # data-season
+Gerik: Desert Tiger # HTML/assets/40px-Gerik_Desert_Tiger_Face_FC.webp.png # 752 # 12 # Infantry # data-five
+Greil: Heroic Exemplar # HTML/assets/40px-Greil_Heroic_Exemplar_Face_FC.webp.png # 752 # 12 # Armored # data-season
+Hector: Just Here to Fight # HTML/assets/40px-Hector_Just_Here_to_Fight_Face_FC.webp.png # 752 # 12 # Armored # data-season
+Hector: Marquess of Ostia # HTML/assets/40px-Hector_Marquess_of_Ostia_Face_FC.webp.png # 752 # 12 # Armored # data-legend
+Hinata: Samurai Groom # HTML/assets/45px-Hinata_Samurai_Groom_Face_FC.webp.png # 752 # 12 # Infantry # data-grail
+Ike: Brave Mercenary # HTML/assets/40px-Ike_Brave_Mercenary_Face_FC.webp.png # 752 # 12 # Infantry # data-five
+Lissa: Pure Joy # HTML/assets/40px-Lissa_Pure_Joy_Face_FC.webp.png # 752 # 12 # Armored # data-season
+Rinkah: Scion of Flame # HTML/assets/40px-Rinkah_Scion_of_Flame_Face_FC.webp.png # 752 # 12 # Infantry # data-five
+Osian: Scolded Soldier # HTML/assets/40px-Osian_Scolded_Soldier_Face_FC.webp.png # 752 # 12 # Infantry # data-five
+Ross: His Father's Son # HTML/assets/40px-Ross_His_Fathers_Son_Face_FC.webp.png # 752 # 12 # Infantry # data-four
+Jaffar: Angel of Night # HTML/assets/40px-Jaffar_Angel_of_Night_Face_FC.webp.png # 752 # 14 # Armored # data-grail
+Micaiah: Queen of Dawn # HTML/assets/40px-Micaiah_Queen_of_Dawn_Face_FC.webp.png # 752 # 15 # Flying # data-five
+Thrasir: Omnicidal Witch # HTML/assets/40px-Thrasir_Omnicidal_Witch_Face_FC.webp.png # 752 # 15 # Infantry # data-five
+Robin: Fell Reincarnation # HTML/assets/40px-Robin_Fell_Reincarnation_Face_FC.webp.png # 752 # 16 # Armored # data-five
+Nailah: Blessed Queen # HTML/assets/45px-Nailah_Blessed_Queen_Face_FC.webp.png # 752 # 17 # Infantry # data-season
+Alm: Saint-King # HTML/assets/40px-Alm_Saint-King_Face_FC.webp.png # 752 # 19 # Infantry # data-legend
+Dozla: Harvest Attendant # HTML/assets/40px-Dozla_Harvest_Attendant_Face_FC.webp.png # 752 # 20 # Armored # data-season
+Corrin: Wailing Soul # HTML/assets/40px-Corrin_Wailing_Soul_Face_FC.webp.png # 752 # 22 # Infantry # data-five
+Duma: God of Strength # HTML/assets/40px-Duma_God_of_Strength_Face_FC.webp.png # 752 # 22 # Armored # data-five
+Caineghis: Gallia's Lion King # HTML/assets/40px-Caineghis_Gallias_Lion_King_Face_FC.webp.png # 752 # 23 # Armored # data-five
+Alm: Hero of Prophecy # HTML/assets/40px-Alm_Hero_of_Prophecy_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Altina: Dawn's Trueblade # HTML/assets/40px-Altina_Dawns_Trueblade_Face_FC.webp.png # 750 # 0 # Flying # data-five
+Arden: Strong and Tough # HTML/assets/40px-Arden_Strong_and_Tough_Face_FC.webp.png # 750 # 0 # Armored # data-grail
+Ashnard: Mad King # HTML/assets/45px-Ashnard_Mad_King_Face_FC.webp.png # 750 # 0 # Flying # data-grail
+Athena: Borderland Sword # HTML/assets/40px-Athena_Borderland_Sword_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Ayra: Astra's Wielder # HTML/assets/40px-Ayra_Astras_Wielder_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Black Knight: Sinister General # HTML/assets/40px-Black_Knight_Sinister_General_Face_FC.webp.png # 750 # 0 # Armored # data-grail
+Byleth: Proven Professor # HTML/assets/40px-Byleth_Proven_Professor_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Byleth: Tested Professor # HTML/assets/40px-Byleth_Tested_Professor_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Caeda: Talys's Heart # HTML/assets/40px-Caeda_Talyss_Heart_Face_FC.webp.png # 750 # 0 # Flying # data-four
+Camilla: Holiday Traveler # HTML/assets/40px-Camilla_Holiday_Traveler_Face_FC.webp.png # 750 # 0 # Flying # data-season
+Catria: Mild Middle Sister # HTML/assets/40px-Catria_Mild_Middle_Sister_Face_FC.webp.png # 750 # 0 # Flying # data-five
+Celica: Imprisoned Soul # HTML/assets/40px-Celica_Imprisoned_Soul_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Chrom: Exalted Prince # HTML/assets/40px-Chrom_Exalted_Prince_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Corrin: Fateful Prince # HTML/assets/40px-Corrin_Fateful_Prince_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Draug: Gentle Giant # HTML/assets/40px-Draug_Gentle_Giant_Face_FC.webp.png # 750 # 0 # Armored # data-four
+Eirika: Restoration Lady # HTML/assets/40px-Eirika_Restoration_Lady_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Elincia: Lost Princess # HTML/assets/40px-Elincia_Lost_Princess_Face_FC.webp.png # 750 # 0 # Flying # data-five
+Fiora: Defrosted Illian # HTML/assets/40px-Fiora_Defrosted_Illian_Face_FC.webp.png # 750 # 0 # Flying # data-grail
+Fir: Sword Student # HTML/assets/40px-Fir_Sword_Student_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Gray: Wry Comrade # HTML/assets/40px-Gray_Wry_Comrade_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Gunnthra: Year's First Dream # HTML/assets/40px-Gunnthra_Years_First_Dream_Face_FC.webp.png # 750 # 0 # Flying # data-season
+Hana: Focused Samurai # HTML/assets/40px-Hana_Focused_Samurai_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Helbindi: Seaside Scourge # HTML/assets/40px-Helbindi_Seaside_Scourge_Face_FC.webp.png # 750 # 0 # Infantry # data-season
+Hinata: Wild Samurai # HTML/assets/40px-Hinata_Wild_Samurai_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Hrid: Resolute Prince # HTML/assets/40px-Hrid_Resolute_Prince_Face_FC.webp.png # 750 # 0 # Flying # data-season
+Ike: Vanguard Legend # HTML/assets/40px-Ike_Vanguard_Legend_Face_FC.webp.png # 750 # 0 # Infantry # data-legend
+Ike: Young Mercenary # HTML/assets/40px-Ike_Young_Mercenary_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Joshua: Tempest King # HTML/assets/40px-Joshua_Tempest_King_Face_FC.webp.png # 750 # 0 # Infantry # data-grail
+Karel: Sword Demon # HTML/assets/40px-Karel_Sword_Demon_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Karla: Sword Vassal # HTML/assets/40px-Karla_Sword_Vassal_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Laegjarn: Sheathed Steel # HTML/assets/40px-Laegjarn_Sheathed_Steel_Face_FC.webp.png # 750 # 0 # Flying # data-five
+Laevatein: Searing Steel # HTML/assets/40px-Laevatein_Searing_Steel_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Laslow: Dancing Duelist # HTML/assets/40px-Laslow_Dancing_Duelist_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Lene: Yearning Dancer # HTML/assets/40px-Lene_Yearning_Dancer_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Lloyd: White Wolf # HTML/assets/40px-Lloyd_White_Wolf_Face_FC.webp.png # 750 # 0 # Infantry # data-grail
+Lon'qu: Solitary Blade # HTML/assets/40px-Lonqu_Solitary_Blade_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Lucina: Future Witness # HTML/assets/40px-Lucina_Future_Witness_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Lyn: Lady of the Plains # HTML/assets/40px-Lyn_Lady_of_the_Plains_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Mareeta: The Blade's Pawn # HTML/assets/40px-Mareeta_The_Blades_Pawn_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Marisa: Crimson Flash # HTML/assets/40px-Marisa_Crimson_Flash_Face_FC.webp.png # 750 # 0 # Infantry # data-grail
+Marth: Altean Prince # HTML/assets/40px-Marth_Altean_Prince_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Marth: Enigmatic Blade # HTML/assets/40px-Marth_Enigmatic_Blade_Face_FC.webp.png # 750 # 0 # Infantry # data-grail
+Mia: Lady of Blades # HTML/assets/40px-Mia_Lady_of_Blades_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Navarre: Scarlet Sword # HTML/assets/40px-Navarre_Scarlet_Sword_Face_FC.webp.png # 750 # 0 # Infantry # data-grail
+Ogma: Loyal Blade # HTML/assets/40px-Ogma_Loyal_Blade_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Olivia: Blushing Beauty # HTML/assets/40px-Olivia_Blushing_Beauty_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Olivia: Sky-High Dancer # HTML/assets/40px-Olivia_Sky-High_Dancer_Face_FC.webp.png # 750 # 0 # Flying # data-five
+Owain: Chosen One # HTML/assets/40px-Owain_Chosen_One_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Palla: Eldest Whitewing # HTML/assets/40px-Palla_Eldest_Whitewing_Face_FC.webp.png # 750 # 0 # Flying # data-four
+Phina: Roving Dancer # HTML/assets/40px-Phina_Roving_Dancer_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Roy: Young Lion # HTML/assets/40px-Roy_Young_Lion_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Rutger: Lone Swordsman # HTML/assets/40px-Rutger_Lone_Swordsman_Face_FC.webp.png # 750 # 0 # Infantry # data-grail
+Ryoma: Peerless Samurai # HTML/assets/40px-Ryoma_Peerless_Samurai_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Saber: Driven Mercenary # HTML/assets/40px-Saber_Driven_Mercenary_Face_FC.webp.png # 750 # 0 # Infantry # data-five
+Selena: Cutting Wit # HTML/assets/40px-Selena_Cutting_Wit_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Seliph: Heir of Light # HTML/assets/40px-Seliph_Heir_of_Light_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Sigrun: Steadfast Bride # HTML/assets/40px-Sigrun_Steadfast_Bride_Face_FC.webp.png # 750 # 0 # Flying # data-season
+Silvia: Traveling Dancer # HTML/assets/40px-Silvia_Traveling_Dancer_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Soleil: Adorable Adorer # HTML/assets/40px-Soleil_Adorable_Adorer_Face_FC.webp.png # 750 # 0 # Infantry # data-four
+Tobin: The Clueless One # HTML/assets/40px-Tobin_The_Clueless_One_Face_FC.webp.png # 750 # 0 # Infantry # data-grail
+Zephiel: The Liberator # HTML/assets/40px-Zephiel_The_Liberator_Face_FC.webp.png # 750 # 0 # Armored # data-grail
+Anna: Wealth-Wisher # HTML/assets/40px-Anna_Wealth-Wisher_Face_FC.webp.png # 750 # 1 # Infantry # data-season
+Igrene: Nabata Protector # HTML/assets/40px-Igrene_Nabata_Protector_Face_FC.webp.png # 750 # 1 # Infantry # data-five
+Midori: Reliable Chemist # HTML/assets/40px-Midori_Reliable_Chemist_Face_FC.webp.png # 750 # 1 # Infantry # data-five
+Eir: Renewed Life # HTML/assets/40px-Eir_Renewed_Life_Face_FC.webp.png # 750 # 2 # Flying # data-grail
+Flora: Cold as Ice # HTML/assets/40px-Flora_Cold_as_Ice_Face_FC.webp.png # 750 # 2 # Infantry # data-five
+Flora: Signature Dish # HTML/assets/40px-Flora_Signature_Dish_Face_FC.webp.png # 750 # 2 # Armored # data-season
+Palla: Eldest Bun-Bun # HTML/assets/40px-Palla_Eldest_Bun-Bun_Face_FC.webp.png # 750 # 2 # Flying # data-season
+Arvis: Emperor of Flame # HTML/assets/40px-Arvis_Emperor_of_Flame_Face_FC.webp.png # 750 # 3 # Infantry # data-grail
+Aversa: Dark One # HTML/assets/40px-Aversa_Dark_One_Face_FC.webp.png # 750 # 3 # Flying # data-grail
+Camilla: Flower of Fantasy # HTML/assets/40px-Camilla_Flower_of_Fantasy_Face_FC.webp.png # 750 # 3 # Flying # data-season
+Canas: Wisdom Seeker # HTML/assets/40px-Canas_Wisdom_Seeker_Face_FC.webp.png # 750 # 3 # Infantry # data-grail
+Celica: Caring Princess # HTML/assets/40px-Celica_Caring_Princess_Face_FC.webp.png # 750 # 3 # Infantry # data-five
+Ewan: Eager Student # HTML/assets/40px-Ewan_Eager_Student_Face_FC.webp.png # 750 # 3 # Infantry # data-five
+Gharnef: Dark Pontifex # HTML/assets/40px-Gharnef_Dark_Pontifex_Face_FC.webp.png # 750 # 3 # Infantry # data-grail
+Henry: Twisted Mind # HTML/assets/40px-Henry_Twisted_Mind_Face_FC.webp.png # 750 # 3 # Infantry # data-four
+Hubert: Sinister Servant # HTML/assets/40px-Hubert_Sinister_Servant_Face_FC.webp.png # 750 # 3 # Infantry # data-five
+Ishtar: Thunder's Waltz # HTML/assets/40px-Ishtar_Thunders_Waltz_Face_FC.webp.png # 750 # 3 # Flying # data-season
+Julius: Scion of Darkness # HTML/assets/40px-Julius_Scion_of_Darkness_Face_FC.webp.png # 750 # 3 # Infantry # data-grail
+Katarina: Wayward One # HTML/assets/40px-Katarina_Wayward_One_Face_FC.webp.png # 750 # 3 # Infantry # data-five
+Kiria: Cool Facade # HTML/assets/40px-Kiria_Cool_Facade_Face_FC.webp.png # 750 # 3 # Infantry # data-five
+Leo: Seashore's Prince # HTML/assets/40px-Leo_Seashores_Prince_Face_FC.webp.png # 750 # 3 # Infantry # data-five
+Lilina: Delightful Noble # HTML/assets/40px-Lilina_Delightful_Noble_Face_FC.webp.png # 750 # 3 # Infantry # data-four
+Lyon: Shadow Prince # HTML/assets/40px-Lyon_Shadow_Prince_Face_FC.webp.png # 750 # 3 # Infantry # data-grail
+Lysithea: Child Prodigy # HTML/assets/40px-Lysithea_Child_Prodigy_Face_FC.webp.png # 750 # 3 # Infantry # data-five
+Micaiah: Summer's Dawn # HTML/assets/40px-Micaiah_Summers_Dawn_Face_FC.webp.png # 750 # 3 # Infantry # data-season
+Morgan: Lad from Afar # HTML/assets/40px-Morgan_Lad_from_Afar_Face_FC.webp.png # 750 # 3 # Infantry # data-four
+Nowi: Eternal Witch # HTML/assets/40px-Nowi_Eternal_Witch_Face_FC.webp.png # 750 # 3 # Flying # data-season
+Raigh: Dark Child # HTML/assets/40px-Raigh_Dark_Child_Face_FC.webp.png # 750 # 3 # Infantry # data-four
+Sanaki: Begnion's Apostle # HTML/assets/40px-Sanaki_Begnions_Apostle_Face_FC.webp.png # 750 # 3 # Infantry # data-five
+Sophia: Nabata Prophet # HTML/assets/40px-Sophia_Nabata_Prophet_Face_FC.webp.png # 750 # 3 # Infantry # data-four
+Tana: Noble and Nimble # HTML/assets/40px-Tana_Noble_and_Nimble_Face_FC.webp.png # 750 # 3 # Flying # data-season
+Tharja: Dark Shadow # HTML/assets/40px-Tharja_Dark_Shadow_Face_FC.webp.png # 750 # 3 # Infantry # data-four
+Tharja: Obsessive Bride # HTML/assets/40px-Tharja_Obsessive_Bride_Face_FC.webp.png # 750 # 3 # Infantry # data-season
+Yago: Nohr's Tactician # HTML/assets/40px-Yago_Nohrs_Tactician_Face_FC.webp.png # 750 # 3 # Infantry # data-grail
+Bantu: Tiki's Guardian # HTML/assets/40px-Bantu_Tikis_Guardian_Face_FC.webp.png # 750 # 4 # Infantry # data-four
+Garon: King of Nohr # HTML/assets/40px-Garon_King_of_Nohr_Face_FC.webp.png # 750 # 4 # Infantry # data-grail
+Tiki: Beachside Scion # HTML/assets/40px-Tiki_Beachside_Scion_Face_FC.webp.png # 750 # 4 # Flying # data-season
+Tiki: Dragon Scion # HTML/assets/40px-Tiki_Dragon_Scion_Face_FC.webp.png # 750 # 4 # Infantry # data-five
+Tiki: Naga's Voice # HTML/assets/40px-Tiki_Nagas_Voice_Face_FC.webp.png # 750 # 4 # Infantry # data-four
+Keaton: Lupine Collector # HTML/assets/40px-Keaton_Lupine_Collector_Face_FC.webp.png # 750 # 5 # Infantry # data-five
+Tibarn: Lord of the Air # HTML/assets/40px-Tibarn_Lord_of_the_Air_Face_FC.webp.png # 750 # 5 # Flying # data-five
+Altena: Luminous Rider # HTML/assets/40px-Altena_Luminous_Rider_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Azura: Lady of the Lake # HTML/assets/40px-Azura_Lady_of_the_Lake_Face_FC.webp.png # 750 # 6 # Infantry # data-five
+Berkut: Debonair Noble # HTML/assets/40px-Berkut_Debonair_Noble_Face_FC.webp.png # 750 # 6 # Infantry # data-season
+Catria: Middle Whitewing # HTML/assets/40px-Catria_Middle_Whitewing_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Charlotte: Money Maiden # HTML/assets/40px-Charlotte_Money_Maiden_Face_FC.webp.png # 750 # 6 # Infantry # data-season
+Clair: Highborn Flier # HTML/assets/40px-Clair_Highborn_Flier_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Cordelia: Knight Paragon # HTML/assets/40px-Cordelia_Knight_Paragon_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Cormag: Aloof Lanceman # HTML/assets/40px-Cormag_Aloof_Lanceman_Face_FC.webp.png # 750 # 6 # Flying # data-grail
+Cynthia: Hero Chaser # HTML/assets/40px-Cynthia_Hero_Chaser_Face_FC.webp.png # 750 # 6 # Flying # data-grail
+Donnel: Village Hero # HTML/assets/40px-Donnel_Village_Hero_Face_FC.webp.png # 750 # 6 # Infantry # data-four
+Effie: Army of One # HTML/assets/40px-Effie_Army_of_One_Face_FC.webp.png # 750 # 6 # Armored # data-four
+Ephraim: Restoration Lord # HTML/assets/40px-Ephraim_Restoration_Lord_Face_FC.webp.png # 750 # 6 # Infantry # data-five
+Est: Junior Whitewing # HTML/assets/40px-Est_Junior_Whitewing_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Fiora: Airborne Warrior # HTML/assets/40px-Fiora_Airborne_Warrior_Face_FC.webp.png # 750 # 6 # Flying # data-five
+Fjorm: Princess of Ice # HTML/assets/40px-Fjorm_Princess_of_Ice_Face_FC.webp.png # 750 # 6 # Infantry # data-legend
+Florina: Lovely Flier # HTML/assets/40px-Florina_Lovely_Flier_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Gwendolyn: Adorable Knight # HTML/assets/40px-Gwendolyn_Adorable_Knight_Face_FC.webp.png # 750 # 6 # Armored # data-four
+Heath: Wandering Knight # HTML/assets/40px-Heath_Wandering_Knight_Face_FC.webp.png # 750 # 6 # Flying # data-grail
+Hinoka: Warrior Princess # HTML/assets/40px-Hinoka_Warrior_Princess_Face_FC.webp.png # 750 # 6 # Flying # data-five
+Lucina: Brave Princess # HTML/assets/40px-Lucina_Brave_Princess_Face_FC.webp.png # 750 # 6 # Infantry # data-five
+Lukas: Sharp Soldier # HTML/assets/40px-Lukas_Sharp_Soldier_Face_FC.webp.png # 750 # 6 # Infantry # data-four
+Marisa: Crimson Rabbit # HTML/assets/40px-Marisa_Crimson_Rabbit_Face_FC.webp.png # 750 # 6 # Flying # data-season
+Narcian: Vernal General # HTML/assets/40px-Narcian_Vernal_General_Face_FC.webp.png # 750 # 6 # Flying # data-season
+Nephenee: Fierce Halberdier # HTML/assets/40px-Nephenee_Fierce_Halberdier_Face_FC.webp.png # 750 # 6 # Infantry # data-five
+Oboro: Fierce Fighter # HTML/assets/40px-Oboro_Fierce_Fighter_Face_FC.webp.png # 750 # 6 # Infantry # data-four
+Robin: Seaside Tactician # HTML/assets/40px-Robin_Seaside_Tactician_Face_FC.webp.png # 750 # 6 # Infantry # data-season
+Ryoma: Samurai at Ease # HTML/assets/40px-Ryoma_Samurai_at_Ease_Face_FC.webp.png # 750 # 6 # Flying # data-season
+Shanna: Sprightly Flier # HTML/assets/40px-Shanna_Sprightly_Flier_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Shigure: Uplifting Artist # HTML/assets/40px-Shigure_Uplifting_Artist_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Shiro: Raw Talent # HTML/assets/40px-Shiro_Raw_Talent_Face_FC.webp.png # 750 # 6 # Infantry # data-five
+Sigrun: Loyal Protector # HTML/assets/40px-Sigrun_Loyal_Protector_Face_FC.webp.png # 750 # 6 # Flying # data-grail
+Subaki: Perfect Expert # HTML/assets/40px-Subaki_Perfect_Expert_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Sumia: Maid of Flowers # HTML/assets/40px-Sumia_Maid_of_Flowers_Face_FC.webp.png # 750 # 6 # Flying # data-five
+Tana: Winged Princess # HTML/assets/40px-Tana_Winged_Princess_Face_FC.webp.png # 750 # 6 # Flying # data-five
+Tanith: Forthright Heart # HTML/assets/40px-Tanith_Forthright_Heart_Face_FC.webp.png # 750 # 6 # Flying # data-season
+Thea: Stormy Flier # HTML/assets/40px-Thea_Stormy_Flier_Face_FC.webp.png # 750 # 6 # Flying # data-four
+Travant: King of Thracia # HTML/assets/40px-Travant_King_of_Thracia_Face_FC.webp.png # 750 # 6 # Flying # data-grail
+Tsubasa: Madcap Idol # HTML/assets/40px-Tsubasa_Madcap_Idol_Face_FC.webp.png # 750 # 6 # Flying # data-five
+Valter: Dark Moonstone # HTML/assets/40px-Valter_Dark_Moonstone_Face_FC.webp.png # 750 # 6 # Flying # data-grail
+Lucina: Glorious Archer # HTML/assets/40px-Lucina_Glorious_Archer_Face_FC.webp.png # 750 # 7 # Infantry # data-legend
+Lyn: Lady of the Beach # HTML/assets/40px-Lyn_Lady_of_the_Beach_Face_FC.webp.png # 750 # 7 # Flying # data-season
+Petra: Princess of Brigid # HTML/assets/40px-Petra_Princess_of_Brigid_Face_FC.webp.png # 750 # 8 # Flying # data-five
+Ryoma: Dancing Samurai # HTML/assets/40px-Ryoma_Dancing_Samurai_Face_FC.webp.png # 750 # 8 # Infantry # data-season
+Ylgr: Fresh Snowfall # HTML/assets/40px-Ylgr_Fresh_Snowfall_Face_FC.webp.png # 750 # 8 # Infantry # data-five
+Azura: Vallite Songstress # HTML/assets/40px-Azura_Vallite_Songstress_Face_FC.webp.png # 750 # 9 # Flying # data-legend
+Brunnya: Devoted General # HTML/assets/40px-Brunnya_Devoted_General_Face_FC.webp.png # 750 # 9 # Infantry # data-grail
+Caeda: Talys's Bride # HTML/assets/40px-Caeda_Talyss_Bride_Face_FC.webp.png # 750 # 9 # Infantry # data-season
+Camilla: Tropical Beauty # HTML/assets/40px-Camilla_Tropical_Beauty_Face_FC.webp.png # 750 # 9 # Flying # data-season
+Corrin: Novice Vacationer # HTML/assets/40px-Corrin_Novice_Vacationer_Face_FC.webp.png # 750 # 9 # Flying # data-season
+Delthea: Free Spirit # HTML/assets/40px-Delthea_Free_Spirit_Face_FC.webp.png # 750 # 9 # Infantry # data-five
+Delthea: Tatarrah's Puppet # HTML/assets/40px-Delthea_Tatarrahs_Puppet_Face_FC.webp.png # 750 # 9 # Infantry # data-grail
+Est: Springtime Flier # HTML/assets/40px-Est_Springtime_Flier_Face_FC.webp.png # 750 # 9 # Flying # data-season
+Ilyana: Treat Harvester # HTML/assets/40px-Ilyana_Treat_Harvester_Face_FC.webp.png # 750 # 9 # Armored # data-season
+Ishtar: Thunder Goddess # HTML/assets/40px-Ishtar_Thunder_Goddess_Face_FC.webp.png # 750 # 9 # Infantry # data-five
+Kliff: Curious Spirit # HTML/assets/40px-Kliff_Curious_Spirit_Face_FC.webp.png # 750 # 9 # Infantry # data-five
+Laegjarn: Burning Sun # HTML/assets/40px-Laegjarn_Burning_Sun_Face_FC.webp.png # 750 # 9 # Flying # data-season
+Linde: Light Mage # HTML/assets/40px-Linde_Light_Mage_Face_FC.webp.png # 750 # 9 # Infantry # data-five
+Lucina: Spring Exalt # HTML/assets/40px-Lucina_Spring_Exalt_Face_FC.webp.png # 750 # 9 # Infantry # data-season
+Lute: Prodigy # HTML/assets/40px-Lute_Prodigy_Face_FC.webp.png # 750 # 9 # Infantry # data-five
+Mae: Bundle of Energy # HTML/assets/40px-Mae_Bundle_of_Energy_Face_FC.webp.png # 750 # 9 # Infantry # data-four
+Micaiah: Priestess of Dawn # HTML/assets/40px-Micaiah_Priestess_of_Dawn_Face_FC.webp.png # 750 # 9 # Infantry # data-five
+Morgan: Lass from Afar # HTML/assets/40px-Morgan_Lass_from_Afar_Face_FC.webp.png # 750 # 9 # Flying # data-five
+Ninian: Bright-Eyed Bride # HTML/assets/40px-Ninian_Bright-Eyed_Bride_Face_FC.webp.png # 750 # 9 # Flying # data-season
+Nino: Flower of Frost # HTML/assets/40px-Nino_Flower_of_Frost_Face_FC.webp.png # 750 # 9 # Armored # data-season
+Odin: Potent Force # HTML/assets/40px-Odin_Potent_Force_Face_FC.webp.png # 750 # 9 # Infantry # data-four
+Oliver: Admirer of Beauty # HTML/assets/40px-Oliver_Admirer_of_Beauty_Face_FC.webp.png # 750 # 9 # Infantry # data-grail
+Ophelia: Dramatic Heroine # HTML/assets/40px-Ophelia_Dramatic_Heroine_Face_FC.webp.png # 750 # 9 # Infantry # data-five
+Peony: Sweet Dream # HTML/assets/40px-Peony_Sweet_Dream_Face_FC.webp.png # 750 # 9 # Flying # data-five
+Rinea: Reminiscent Belle # HTML/assets/40px-Rinea_Reminiscent_Belle_Face_FC.webp.png # 750 # 9 # Infantry # data-grail
+Robin: High Deliverer # HTML/assets/40px-Robin_High_Deliverer_Face_FC.webp.png # 750 # 9 # Infantry # data-four
+Saias: Bishop of Flame # HTML/assets/40px-Saias_Bishop_of_Flame_Face_FC.webp.png # 750 # 9 # Infantry # data-grail
+Shigure: Dark Sky Singer # HTML/assets/40px-Shigure_Dark_Sky_Singer_Face_FC.webp.png # 750 # 9 # Infantry # data-five
+Tailtiu: Thunder Noble # HTML/assets/40px-Tailtiu_Thunder_Noble_Face_FC.webp.png # 750 # 9 # Infantry # data-four
+Corrin: Dream Prince # HTML/assets/40px-Corrin_Dream_Prince_Face_FC.webp.png # 750 # 10 # Infantry # data-five
+Corrin: Fateful Princess # HTML/assets/40px-Corrin_Fateful_Princess_Face_FC.webp.png # 750 # 10 # Infantry # data-four
+Kana: Dragon Spawn # HTML/assets/40px-Kana_Dragon_Spawn_Face_FC.webp.png # 750 # 10 # Infantry # data-grail
+Naga: Dragon Divinity # HTML/assets/40px-Naga_Dragon_Divinity_Face_FC.webp.png # 750 # 10 # Flying # data-five
+Nils: Bright Bard # HTML/assets/40px-Nils_Bright_Bard_Face_FC.webp.png # 750 # 10 # Infantry # data-five
+Ninian: Oracle of Destiny # HTML/assets/40px-Ninian_Oracle_of_Destiny_Face_FC.webp.png # 750 # 10 # Infantry # data-five
+Nowi: Eternal Youth # HTML/assets/40px-Nowi_Eternal_Youth_Face_FC.webp.png # 750 # 10 # Infantry # data-four
+Mordecai: Kindhearted Tiger # HTML/assets/40px-Mordecai_Kindhearted_Tiger_Face_FC.webp.png # 750 # 11 # Infantry # data-four
+Naesala: Sky's Shadow # HTML/assets/40px-Naesala_Skys_Shadow_Face_FC.webp.png # 750 # 11 # Flying # data-grail
+Nailah: Unflinching Eye # HTML/assets/40px-Nailah_Unflinching_Eye_Face_FC.webp.png # 750 # 11 # Infantry # data-five
+Rafiel: Blessed Wings # HTML/assets/45px-Rafiel_Blessed_Wings_Face_FC.webp.png # 750 # 11 # Infantry # data-season
+Arthur: Hapless Hero # HTML/assets/40px-Arthur_Hapless_Hero_Face_FC.webp.png # 750 # 12 # Infantry # data-four
+Azura: Celebratory Spirit # HTML/assets/40px-Azura_Celebratory_Spirit_Face_FC.webp.png # 750 # 12 # Flying # data-season
+Azura: Lady of Ballads # HTML/assets/40px-Azura_Lady_of_Ballads_Face_FC.webp.png # 750 # 12 # Infantry # data-season
+Barst: The Hatchet # HTML/assets/40px-Barst_The_Hatchet_Face_FC.webp.png # 750 # 12 # Infantry # data-four
+Bartre: Fearless Warrior # HTML/assets/40px-Bartre_Fearless_Warrior_Face_FC.webp.png # 750 # 12 # Infantry # data-four
+Beruka: Quiet Assassin # HTML/assets/40px-Beruka_Quiet_Assassin_Face_FC.webp.png # 750 # 12 # Flying # data-four
+Camilla: Bewitching Beauty # HTML/assets/40px-Camilla_Bewitching_Beauty_Face_FC.webp.png # 750 # 12 # Flying # data-four
+Cherche: Wyvern Friend # HTML/assets/40px-Cherche_Wyvern_Friend_Face_FC.webp.png # 750 # 12 # Flying # data-four
+Chrom: Spring Exalt # HTML/assets/40px-Chrom_Spring_Exalt_Face_FC.webp.png # 750 # 12 # Infantry # data-season
+Dorcas: Serene Warrior # HTML/assets/40px-Dorcas_Serene_Warrior_Face_FC.webp.png # 750 # 12 # Infantry # data-five
+Edelgard: The Future # HTML/assets/40px-Edelgard_The_Future_Face_FC.webp.png # 750 # 12 # Infantry # data-five
+Fir: Student of Spring # HTML/assets/40px-Fir_Student_of_Spring_Face_FC.webp.png # 750 # 12 # Flying # data-season
+Gerome: Masked Rider # HTML/assets/40px-Gerome_Masked_Rider_Face_FC.webp.png # 750 # 12 # Flying # data-grail
+Haar: Black Tempest # HTML/assets/40px-Haar_Black_Tempest_Face_FC.webp.png # 750 # 12 # Flying # data-grail
+Hawkeye: Desert Guardian # HTML/assets/40px-Hawkeye_Desert_Guardian_Face_FC.webp.png # 750 # 12 # Infantry # data-four
+Hector: General of Ostia # HTML/assets/40px-Hector_General_of_Ostia_Face_FC.webp.png # 750 # 12 # Armored # data-five
+Helbindi: Savage Scourge # HTML/assets/40px-Helbindi_Savage_Scourge_Face_FC.webp.png # 750 # 12 # Infantry # data-five
+Hilda: Idle Maiden # HTML/assets/40px-Hilda_Idle_Maiden_Face_FC.webp.png # 750 # 12 # Infantry # data-five
+Innes: Flawless Form # HTML/assets/40px-Innes_Flawless_Form_Face_FC.webp.png # 750 # 12 # Flying # data-season
+Legion: Masked Maniac # HTML/assets/40px-Legion_Masked_Maniac_Face_FC.webp.png # 750 # 12 # Infantry # data-grail
+Libra: Fetching Friar # HTML/assets/40px-Libra_Fetching_Friar_Face_FC.webp.png # 750 # 12 # Infantry # data-four
+Linus: Mad Dog # HTML/assets/40px-Linus_Mad_Dog_Face_FC.webp.png # 750 # 12 # Infantry # data-grail
+Michalis: Ambitious King # HTML/assets/40px-Michalis_Ambitious_King_Face_FC.webp.png # 750 # 12 # Flying # data-grail
+Minerva: Red Dragoon # HTML/assets/40px-Minerva_Red_Dragoon_Face_FC.webp.png # 750 # 12 # Flying # data-five
+Narcian: Wyvern General # HTML/assets/40px-Narcian_Wyvern_General_Face_FC.webp.png # 750 # 12 # Flying # data-grail
+Raven: Peerless Fighter # HTML/assets/40px-Raven_Peerless_Fighter_Face_FC.webp.png # 750 # 12 # Infantry # data-four
+Sheena: Princess of Gra # HTML/assets/40px-Sheena_Princess_of_Gra_Face_FC.webp.png # 750 # 12 # Armored # data-four
+Tiki: Summering Scion # HTML/assets/40px-Tiki_Summering_Scion_Face_FC.webp.png # 750 # 12 # Infantry # data-season
+Xander: Student Swimmer # HTML/assets/40px-Xander_Student_Swimmer_Face_FC.webp.png # 750 # 12 # Infantry # data-season
+Ylgr: Breaking the Ice # HTML/assets/40px-Ylgr_Breaking_the_Ice_Face_FC.webp.png # 750 # 12 # Infantry # data-grail
+Minerva: Princess Knight # HTML/assets/45px-Minerva_Princess-Knight_Face_FC.webp.png # 750 # 12 # Flying # data-grail
+Fjorm: New Traditions # HTML/assets/40px-Fjorm_New_Traditions_Face_FC.webp.png # 750 # 13 # Flying # data-season
+Lyn: Lady of the Wind # HTML/assets/40px-Lyn_Lady_of_the_Wind_Face_FC.webp.png # 750 # 13 # Infantry # data-legend
+Elincia: Estival Princess # HTML/assets/40px-Elincia_Estival_Princess_Face_FC.webp.png # 750 # 14 # Infantry # data-season
+Hinoka: Relaxed Warrior # HTML/assets/40px-Hinoka_Relaxed_Warrior_Face_FC.webp.png # 750 # 14 # Flying # data-season
+Azura: Young Songstress # HTML/assets/40px-Azura_Young_Songstress_Face_FC.webp.png # 750 # 15 # Infantry # data-grail
+Boey: Skillful Survivor # HTML/assets/40px-Boey_Skillful_Survivor_Face_FC.webp.png # 750 # 15 # Infantry # data-four
+Camilla: Spring Princess # HTML/assets/40px-Camilla_Spring_Princess_Face_FC.webp.png # 750 # 15 # Flying # data-season
+Ced: Hero on the Wind # HTML/assets/40px-Ced_Hero_on_the_Wind_Face_FC.webp.png # 750 # 15 # Infantry # data-five
+Deirdre: Lady of the Forest # HTML/assets/40px-Deirdre_Lady_of_the_Forest_Face_FC.webp.png # 750 # 15 # Infantry # data-five
+Elise: Tropical Flower # HTML/assets/40px-Elise_Tropical_Flower_Face_FC.webp.png # 750 # 15 # Infantry # data-season
+Inigo: Indigo Dancer # HTML/assets/40px-Inigo_Indigo_Dancer_Face_FC.webp.png # 750 # 15 # Infantry # data-season
+Julia: Naga's Blood # HTML/assets/40px-Julia_Nagas_Blood_Face_FC.webp.png # 750 # 15 # Infantry # data-five
+Laevatein: Bonfire's Blaze # HTML/assets/40px-Laevatein_Bonfires_Blaze_Face_FC.webp.png # 750 # 15 # Flying # data-season
+Lewyn: Guiding Breeze # HTML/assets/40px-Lewyn_Guiding_Breeze_Face_FC.webp.png # 750 # 15 # Infantry # data-five
+Lyon: Demon King # HTML/assets/45px-Lyon_Demon_King_Face_FC.webp.png # 750 # 15 # Infantry # data-five
+Lugh: Anima Child # HTML/assets/40px-Lugh_Anima_Child_Face_FC.webp.png # 750 # 15 # Infantry # data-five
+Merric: Changing Winds # HTML/assets/45px-Merric_Changing_Winds_Face_FC.webp.png # 750 # 15 # Infantry # data-season
+Merric: Wind Mage # HTML/assets/40px-Merric_Wind_Mage_Face_FC.webp.png # 750 # 15 # Infantry # data-four
+Nino: Pale Flower # HTML/assets/40px-Nino_Pale_Flower_Face_FC.webp.png # 750 # 15 # Flying # data-five
+Nino: Pious Mage # HTML/assets/40px-Nino_Pious_Mage_Face_FC.webp.png # 750 # 15 # Infantry # data-four
+Reinhardt: Lightning's Rondo # HTML/assets/40px-Reinhardt_Lightnings_Rondo_Face_FC.webp.png # 750 # 15 # Flying # data-season
+Rhajat: Black Magician # HTML/assets/40px-Rhajat_Black_Magician_Face_FC.webp.png # 750 # 15 # Infantry # data-five
+Robin: Mystery Tactician # HTML/assets/40px-Robin_Mystery_Tactician_Face_FC.webp.png # 750 # 15 # Infantry # data-grail
+Sanaki: Apostle in White # HTML/assets/40px-Sanaki_Apostle_in_White_Face_FC.webp.png # 750 # 15 # Flying # data-season
+Sharena: Spring Princess # HTML/assets/40px-Sharena_Spring_Princess_Face_FC.webp.png # 750 # 15 # Infantry # data-season
+Sonya: Vengeful Mage # HTML/assets/40px-Sonya_Vengeful_Mage_Face_FC.webp.png # 750 # 15 # Infantry # data-five
+Soren: Shrewd Strategist # HTML/assets/40px-Soren_Shrewd_Strategist_Face_FC.webp.png # 750 # 15 # Infantry # data-four
+Veronica: Spring Princess # HTML/assets/40px-Veronica_Spring_Princess_Face_FC.webp.png # 750 # 15 # Flying # data-season
+Yune: Chaos Goddess # HTML/assets/40px-Yune_Chaos_Goddess_Face_FC.webp.png # 750 # 15 # Flying # data-five
+Corrin: Dream Princess # HTML/assets/40px-Corrin_Dream_Princess_Face_FC.webp.png # 750 # 16 # Infantry # data-five
+Fae: Divine Dragon # HTML/assets/40px-Fae_Divine_Dragon_Face_FC.webp.png # 750 # 16 # Infantry # data-four
+Kana: Dragon Princess # HTML/assets/40px-Kana_Dragon_Princess_Face_FC.webp.png # 750 # 16 # Infantry # data-five
+Myrrh: Great Dragon # HTML/assets/40px-Myrrh_Great_Dragon_Face_FC.webp.png # 750 # 16 # Flying # data-five
+Reyson: White Prince # HTML/assets/40px-Reyson_White_Prince_Face_FC.webp.png # 750 # 17 # Flying # data-four
+Clarisse: Sniper in the Dark # HTML/assets/40px-Clarisse_Sniper_in_the_Dark_Face_FC.webp.png # 750 # 19 # Infantry # data-grail
+Cordelia: Perfect Bride # HTML/assets/40px-Cordelia_Perfect_Bride_Face_FC.webp.png # 750 # 19 # Infantry # data-season
+Corrin: Enjoying Tradition # HTML/assets/40px-Corrin_Enjoying_Tradition_Face_FC.webp.png # 750 # 19 # Infantry # data-grail
+Eleonora: Shooting Starlet # HTML/assets/40px-Eleonora_Shooting_Starlet_Face_FC.webp.png # 750 # 19 # Infantry # data-five
+Faye: Devoted Heart # HTML/assets/40px-Faye_Devoted_Heart_Face_FC.webp.png # 750 # 19 # Infantry # data-five
+Gaius: Thief Exposed # HTML/assets/40px-Gaius_Thief_Exposed_Face_FC.webp.png # 750 # 19 # Infantry # data-season
+Gordin: Altean Archer # HTML/assets/40px-Gordin_Altean_Archer_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Hinoka: Blue Sky Warrior # HTML/assets/40px-Hinoka_Blue_Sky_Warrior_Face_FC.webp.png # 750 # 19 # Flying # data-five
+Innes: Regal Strategician # HTML/assets/40px-Innes_Regal_Strategician_Face_FC.webp.png # 750 # 19 # Infantry # data-five
+Jamke: Prince of Verdane # HTML/assets/40px-Jamke_Prince_of_Verdane_Face_FC.webp.png # 750 # 19 # Infantry # data-grail
+Jeorge: Perfect Shot # HTML/assets/40px-Jeorge_Perfect_Shot_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Klein: Silver Nobleman # HTML/assets/40px-Klein_Silver_Nobleman_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Leon: True of Heart # HTML/assets/40px-Leon_True_of_Heart_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Nephenee: Sincere Dancer # HTML/assets/40px-Nephenee_Sincere_Dancer_Face_FC.webp.png # 750 # 19 # Infantry # data-season
+Niles: Cruel to Be Kind # HTML/assets/40px-Niles_Cruel_to_Be_Kind_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Nina: Eye Spy # HTML/assets/40px-Nina_Eye_Spy_Face_FC.webp.png # 750 # 19 # Infantry # data-five
+Noire: Shade Seeker # HTML/assets/40px-Noire_Shade_Seeker_Face_FC.webp.png # 750 # 19 # Infantry # data-season
+Norne: The Volunteer # HTML/assets/40px-Norne_The_Volunteer_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Rebecca: Wildflower # HTML/assets/40px-Rebecca_Wildflower_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Setsuna: Absent Archer # HTML/assets/40px-Setsuna_Absent_Archer_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Takumi: Empty Vessel # HTML/assets/40px-Takumi_Empty_Vessel_Face_FC.webp.png # 750 # 19 # Infantry # data-grail
+Takumi: Prince at Play # HTML/assets/40px-Takumi_Prince_at_Play_Face_FC.webp.png # 750 # 19 # Flying # data-season
+Takumi: Wild Card # HTML/assets/40px-Takumi_Wild_Card_Face_FC.webp.png # 750 # 19 # Infantry # data-five
+Tanya: Dagdar's Kid # HTML/assets/40px-Tanya_Dagdars_Kid_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Virion: Elite Archer # HTML/assets/40px-Virion_Elite_Archer_Face_FC.webp.png # 750 # 19 # Infantry # data-four
+Chad: Lycian Wildcat # HTML/assets/40px-Chad_Lycian_Wildcat_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Eir: Merciful Death # HTML/assets/40px-Eir_Merciful_Death_Face_FC.webp.png # 750 # 20 # Flying # data-five
+Felicia: Maid Mayhem # HTML/assets/40px-Felicia_Maid_Mayhem_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Frederick: Horizon Watcher # HTML/assets/40px-Frederick_Horizon_Watcher_Face_FC.webp.png # 750 # 20 # Infantry # data-season
+Gaius: Candy Stealer # HTML/assets/40px-Gaius_Candy_Stealer_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Jaffar: Angel of Death # HTML/assets/40px-Jaffar_Angel_of_Death_Face_FC.webp.png # 750 # 20 # Infantry # data-five
+Jakob: Devoted Servant # HTML/assets/40px-Jakob_Devoted_Servant_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Kagero: Honorable Ninja # HTML/assets/40px-Kagero_Honorable_Ninja_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Kagero: Spring Ninja # HTML/assets/40px-Kagero_Spring_Ninja_Face_FC.webp.png # 750 # 20 # Flying # data-season
+Kaze: Easygoing Ninja # HTML/assets/40px-Kaze_Easygoing_Ninja_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Kronya: Gleaming Blade # HTML/assets/40px-Kronya_Gleaming_Blade_Face_FC.webp.png # 750 # 20 # Infantry # data-grail
+Larum: Sprightly Dancer # HTML/assets/40px-Larum_Sprightly_Dancer_Face_FC.webp.png # 750 # 20 # Infantry # data-five
+Legault: The Hurricane # HTML/assets/40px-Legault_The_Hurricane_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Leila: Rose amid Fangs # HTML/assets/40px-Leila_Rose_amid_Fangs_Face_FC.webp.png # 750 # 20 # Infantry # data-five
+Matthew: Faithful Spy # HTML/assets/40px-Matthew_Faithful_Spy_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Olivia: Festival Dancer # HTML/assets/40px-Olivia_Festival_Dancer_Face_FC.webp.png # 750 # 20 # Infantry # data-season
+Saizo: Angry Ninja # HTML/assets/40px-Saizo_Angry_Ninja_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Sakura: Gentle Nekomata # HTML/assets/40px-Sakura_Gentle_Nekomata_Face_FC.webp.png # 750 # 20 # Infantry # data-season
+Sothe: Zephyr # HTML/assets/40px-Sothe_Zephyr_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Takumi: Prince of Soup # HTML/assets/40px-Takumi_Prince_of_Soup_Face_FC.webp.png # 750 # 20 # Infantry # data-season
+Tethys: Beloved Dancer # HTML/assets/40px-Tethys_Beloved_Dancer_Face_FC.webp.png # 750 # 20 # Infantry # data-four
+Xander: Dancing Knight # HTML/assets/40px-Xander_Dancing_Knight_Face_FC.webp.png # 750 # 20 # Infantry # data-season
+Bramimond: The Enigma # HTML/assets/40px-Bramimond_The_Enigma_Face_FC.webp.png # 750 # 21 # Infantry # data-five
+Robin: Fell Vessel # HTML/assets/40px-Robin_Fell_Vessel_Face_FC.webp.png # 750 # 22 # Flying # data-legend
+Velouria: Wolf Cub # HTML/assets/40px-Velouria_Wolf_Cub_Face_FC.webp.png # 750 # 23 # Infantry # data-five
+Conrad: Unmasked Knight # HTML/assets/40px-Conrad_Unmasked_Knight_Face_FC.webp.png # 748 # 0 # Cavalry # data-grail
+Eirika: Graceful Resolve # HTML/assets/40px-Eirika_Graceful_Resolve_Face_FC.webp.png # 748 # 0 # Cavalry # data-legend
+Hrid: Icy Blade # HTML/assets/40px-Hrid_Icy_Blade_Face_FC.webp.png # 748 # 0 # Cavalry # data-legend
+Kempf: Conniving General # HTML/assets/40px-Kempf_Conniving_General_Face_FC.webp.png # 748 # 0 # Cavalry # data-grail
+Sigurd: Holy Knight # HTML/assets/40px-Sigurd_Holy_Knight_Face_FC.webp.png # 748 # 0 # Cavalry # data-five
+Tharja: "Normal Girl" # HTML/assets/40px-Tharja_Normal_Girl_Face_FC.webp.png # 748 # 3 # Armored # data-season
+Conrad: Masked Knight # HTML/assets/40px-Conrad_Masked_Knight_Face_FC.webp.png # 748 # 6 # Cavalry # data-grail
+Eliwood: Marquess Pherae # HTML/assets/40px-Eliwood_Marquess_Pherae_Face_FC.webp.png # 748 # 6 # Cavalry # data-five
+Ephraim: Legendary Lord # HTML/assets/40px-Ephraim_Legendary_Lord_Face_FC.webp.png # 748 # 6 # Cavalry # data-legend
+Ferdinand: Noblest of Nobles # HTML/assets/40px-Ferdinand_Noblest_of_Nobles_Face_FC.webp.png # 748 # 6 # Cavalry # data-four
+Perceval: Knightly Ideal # HTML/assets/40px-Perceval_Knightly_Ideal_Face_FC.webp.png # 748 # 6 # Cavalry # data-five
+Sirius: Mysterious Knight # HTML/assets/40px-Sirius_Mysterious_Knight_Face_FC.webp.png # 748 # 6 # Cavalry # data-five
+Niles: Forbidden Tease # HTML/assets/40px-Niles_Forbidden_Tease_Face_FC.webp.png # 748 # 7 # Armored # data-season
+Lyn: Wind's Embrace # HTML/assets/40px-Lyn_Winds_Embrace_Face_FC.webp.png # 748 # 9 # Armored # data-season
+Kagero: Beverage Ninja # HTML/assets/40px-Kagero_Beverage_Ninja_Face_FC.webp.png # 748 # 14 # Armored # data-season
+Henry: Happy Vampire # HTML/assets/40px-Henry_Happy_Vampire_Face_FC.webp.png # 748 # 15 # Armored # data-season
+Lethe: New Year's Claw # HTML/assets/40px-Lethe_New_Years_Claw_Face_FC.webp.png # 748 # 17 # Cavalry # data-season
+Jakob: Devoted Monster # HTML/assets/40px-Jakob_Devoted_Monster_Face_FC.webp.png # 748 # 19 # Armored # data-season
+Cecilia: Festive Instructor # HTML/assets/40px-Cecilia_Festive_Instructor_Face_FC.webp.png # 748 # 20 # Armored # data-grail
+Selkie: New Year's Spirit # HTML/assets/40px-Selkie_New_Years_Spirit_Face_FC.webp.png # 748 # 23 # Cavalry # data-season
+Ares: Black Knight # HTML/assets/40px-Ares_Black_Knight_Face_FC.webp.png # 746 # 0 # Cavalry # data-four
+Chrom: Knight Exalt # HTML/assets/40px-Chrom_Knight_Exalt_Face_FC.webp.png # 746 # 0 # Cavalry # data-five
+Reinhardt: Thunder's Sword # HTML/assets/40px-Reinhardt_Thunders_Sword_Face_FC.webp.png # 746 # 0 # Cavalry # data-five
+Siegbert: Future King # HTML/assets/40px-Siegbert_Future_King_Face_FC.webp.png # 746 # 0 # Cavalry # data-five
+Lethe: Gallia's Valkyrie # HTML/assets/40px-Lethe_Gallias_Valkyrie_Face_FC.webp.png # 746 # 5 # Cavalry # data-five
+Berkut: Purgatorial Prince # HTML/assets/40px-Berkut_Purgatorial_Prince_Face_FC.webp.png # 746 # 6 # Cavalry # data-five
+Cordelia: Knight Paradise # HTML/assets/40px-Cordelia_Knight_Paradise_Face_FC.webp.png # 746 # 6 # Cavalry # data-season
+Death Knight: The Reaper # HTML/assets/40px-Death_Knight_The_Reaper_Face_FC.webp.png # 746 # 6 # Cavalry # data-grail
+Dimitri: The Protector # HTML/assets/40px-Dimitri_The_Protector_Face_FC.webp.png # 746 # 6 # Cavalry # data-five
+Finn: Lance of Legend # HTML/assets/40px-Finn_Lance_of_Legend_Face_FC.webp.png # 746 # 6 # Cavalry # data-grail
+Laegjarn: New Experiences # HTML/assets/40px-Laegjarn_New_Experiences_Face_FC.webp.png # 746 # 6 # Cavalry # data-grail
+Quan: Luminous Lancer # HTML/assets/40px-Quan_Luminous_Lancer_Face_FC.webp.png # 746 # 6 # Cavalry # data-five
+Silas: Loyal Knight # HTML/assets/40px-Silas_Loyal_Knight_Face_FC.webp.png # 746 # 6 # Cavalry # data-four
+Panne: Proud Taguel # HTML/assets/40px-Panne_Proud_Taguel_Face_FC.webp.png # 746 # 11 # Cavalry # data-grail
+Selkie: Free Spirit # HTML/assets/40px-Selkie_Free_Spirit_Face_FC.webp.png # 746 # 11 # Cavalry # data-five
+Alfonse: Spring Prince # HTML/assets/40px-Alfonse_Spring_Prince_Face_FC.webp.png # 746 # 12 # Cavalry # data-season
+Marth: Altean Groom # HTML/assets/40px-Marth_Altean_Groom_Face_FC.webp.png # 746 # 12 # Cavalry # data-grail
+Walhart: The Conqueror # HTML/assets/40px-Walhart_The_Conqueror_Face_FC.webp.png # 746 # 12 # Cavalry # data-grail
+Python: Apathetic Archer # HTML/assets/40px-Python_Apathetic_Archer_Face_FC.webp.png # 746 # 13 # Cavalry # data-four
+Rath: Wolf of Sacae # HTML/assets/40px-Rath_Wolf_of_Sacae_Face_FC.webp.png # 746 # 13 # Cavalry # data-five
+Kaden: Kitsune Braggart # HTML/assets/40px-Kaden_Kitsune_Braggart_Face_FC.webp.png # 746 # 17 # Cavalry # data-five
+Ranulf: Friend of Nations # HTML/assets/40px-Ranulf_Friend_of_Nations_Face_FC.webp.png # 746 # 17 # Cavalry # data-five
+Yarne: Timid Taguel # HTML/assets/40px-Yarne_Timid_Taguel_Face_FC.webp.png # 746 # 17 # Cavalry # data-five
+Bernadetta: Eternal Loner # HTML/assets/40px-Bernadetta_Eternal_Loner_Face_FC.webp.png # 746 # 19 # Cavalry # data-five
+Rolf: Tricky Archer # HTML/assets/40px-Rolf_Tricky_Archer_Face_FC.webp.png # 746 # 19 # Cavalry # data-grail
+Cain: The Bull # HTML/assets/40px-Cain_The_Bull_Face_FC.webp.png # 744 # 0 # Cavalry # data-four
+Eldigan: Lionheart # HTML/assets/40px-Eldigan_Lionheart_Face_FC.webp.png # 744 # 0 # Cavalry # data-five
+Eliwood: Knight of Lycia # HTML/assets/40px-Eliwood_Knight_of_Lycia_Face_FC.webp.png # 744 # 0 # Cavalry # data-four
+Luke: Rowdy Squire # HTML/assets/40px-Luke_Rowdy_Squire_Face_FC.webp.png # 744 # 0 # Cavalry # data-five
+Roy: Brave Lion # HTML/assets/40px-Roy_Brave_Lion_Face_FC.webp.png # 744 # 0 # Cavalry # data-five
+Seth: Silver Knight # HTML/assets/40px-Seth_Silver_Knight_Face_FC.webp.png # 744 # 0 # Cavalry # data-four
+Stahl: Viridian Knight # HTML/assets/40px-Stahl_Viridian_Knight_Face_FC.webp.png # 744 # 0 # Cavalry # data-four
+Xander: Paragon Knight # HTML/assets/40px-Xander_Paragon_Knight_Face_FC.webp.png # 744 # 0 # Cavalry # data-grail
+Abel: The Panther # HTML/assets/40px-Abel_The_Panther_Face_FC.webp.png # 744 # 6 # Cavalry # data-four
+Berkut: Prideful Prince # HTML/assets/40px-Berkut_Prideful_Prince_Face_FC.webp.png # 744 # 6 # Cavalry # data-grail
+Camus: Sable Knight # HTML/assets/40px-Camus_Sable_Knight_Face_FC.webp.png # 744 # 6 # Cavalry # data-grail
+Clive: Idealistic Knight # HTML/assets/40px-Clive_Idealistic_Knight_Face_FC.webp.png # 744 # 6 # Cavalry # data-grail
+Mathilda: Legendary Knight # HTML/assets/40px-Mathilda_Legendary_Knight_Face_FC.webp.png # 744 # 6 # Cavalry # data-four
+Oscar: Agile Horseman # HTML/assets/40px-Oscar_Agile_Horseman_Face_FC.webp.png # 744 # 6 # Cavalry # data-four
+Peri: Playful Slayer # HTML/assets/40px-Peri_Playful_Slayer_Face_FC.webp.png # 744 # 6 # Cavalry # data-four
+Roderick: Steady Squire # HTML/assets/40px-Roderick_Steady_Squire_Face_FC.webp.png # 744 # 6 # Cavalry # data-four
+Sully: Crimson Knight # HTML/assets/40px-Sully_Crimson_Knight_Face_FC.webp.png # 744 # 6 # Cavalry # data-four
+Xander: Spring Prince # HTML/assets/40px-Xander_Spring_Prince_Face_FC.webp.png # 744 # 6 # Cavalry # data-season
+Frederick: Polite Knight # HTML/assets/40px-Frederick_Polite_Knight_Face_FC.webp.png # 744 # 12 # Cavalry # data-four
+Titania: Mighty Mercenary # HTML/assets/40px-Titania_Mighty_Mercenary_Face_FC.webp.png # 744 # 12 # Cavalry # data-four
+L'Arachel: Harvest Princess # HTML/assets/40px-LArachel_Harvest_Princess_Face_FC.webp.png # 744 # 15 # Cavalry # data-season
+Azama: Carefree Monk # HTML/assets/40px-Azama_Carefree_Monk_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Brady: Daunting Priest # HTML/assets/40px-Brady_Daunting_Priest_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Camilla: Light of Nohr # HTML/assets/40px-Camilla_Light_of_Nohr_Face_FC.webp.png # 744 # 18 # Flying # data-five
+Fjorm: Bride of Rime # HTML/assets/40px-Fjorm_Bride_of_Rime_Face_FC.webp.png # 744 # 18 # Flying # data-season
+Genny: Endearing Ally # HTML/assets/40px-Genny_Endearing_Ally_Face_FC.webp.png # 744 # 18 # Infantry # data-five
+Lachesis: Lionheart's Sister # HTML/assets/40px-Lachesis_Lionhearts_Sister_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Lissa: Sprightly Cleric # HTML/assets/40px-Lissa_Sprightly_Cleric_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Loki: The Trickster # HTML/assets/40px-Loki_The_Trickster_Face_FC.webp.png # 744 # 18 # Infantry # data-five
+Lucius: The Light # HTML/assets/40px-Lucius_The_Light_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Lyn: Bride of the Plains # HTML/assets/40px-Lyn_Bride_of_the_Plains_Face_FC.webp.png # 744 # 18 # Infantry # data-season
+Maria: Minerva's Sister # HTML/assets/40px-Maria_Minervas_Sister_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Mercedes: Kindly Devotee # HTML/assets/40px-Mercedes_Kindly_Devotee_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Mia: Moonlit Witch # HTML/assets/40px-Mia_Moonlit_Witch_Face_FC.webp.png # 744 # 18 # Flying # data-season
+Mikoto: Caring Mother # HTML/assets/40px-Mikoto_Caring_Mother_Face_FC.webp.png # 744 # 18 # Infantry # data-five
+Mist: Helpful Sister # HTML/assets/40px-Mist_Helpful_Sister_Face_FC.webp.png # 744 # 18 # Infantry # data-five
+Sakura: Hot-Spring Healer # HTML/assets/40px-Sakura_Hot-Spring_Healer_Face_FC.webp.png # 744 # 18 # Flying # data-season
+Sakura: Loving Priestess # HTML/assets/40px-Sakura_Loving_Priestess_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Serra: Outspoken Cleric # HTML/assets/40px-Serra_Outspoken_Cleric_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Silque: Adherent of Mila # HTML/assets/40px-Silque_Adherent_of_Mila_Face_FC.webp.png # 744 # 18 # Infantry # data-five
+Wrys: Kindly Priest # HTML/assets/40px-Wrys_Kindly_Priest_Face_FC.webp.png # 744 # 18 # Infantry # data-four
+Loki: Spring Trickster # HTML/assets/40px-Loki_Spring_Trickster_Face_FC.webp.png # 744 # 19 # Flying # data-grail
+Louise: Eternal Devotion # HTML/assets/40px-Louise_Eternal_Devotion_Face_FC.webp.png # 744 # 19 # Cavalry # data-grail
+Lyn: Brave Lady # HTML/assets/40px-Lyn_Brave_Lady_Face_FC.webp.png # 744 # 19 # Cavalry # data-five
+Lilina: Beachside Bloom # HTML/assets/40px-Lilina_Beachside_Bloom_Face_FC.webp.png # 742 # 2 # Cavalry # data-season
+Jagen: Veteran Knight # HTML/assets/40px-Jagen_Veteran_Knight_Face_FC.webp.png # 742 # 6 # Cavalry # data-four
+Gunter: Inveterate Soldier # HTML/assets/40px-Gunter_Inveterate_Soldier_Face_FC.webp.png # 742 # 12 # Cavalry # data-four
+Sue: Doe of the Plains # HTML/assets/40px-Sue_Doe_of_the_Plains_Face_FC.webp.png # 742 # 13 # Cavalry # data-five
+Wolt: Sunbeam Archer # HTML/assets/40px-Wolt_Sunbeam_Archer_Face_FC.webp.png # 742 # 13 # Cavalry # data-season
+Leo: Extra Tomatoes # HTML/assets/40px-Leo_Extra_Tomatoes_Face_FC.webp.png # 742 # 15 # Cavalry # data-grail
+Gunnthra: Voice of Dreams # HTML/assets/40px-Gunnthra_Voice_of_Dreams_Face_FC.webp.png # 742 # 15 # Cavalry # data-legend
+Eirika: Gentle as Snow # HTML/assets/40px-Eirika_Gentle_as_Snow_Face_FC.webp.png # 742 # 18 # Armored # data-season
+Claude: The Schemer # HTML/assets/40px-Claude_The_Schemer_Face_FC.webp.png # 742 # 19 # Cavalry # data-five
+Camilla: Steamy Secrets # HTML/assets/40px-Camilla_Steamy_Secrets_Face_FC.webp.png # 742 # 20 # Flying # data-grail
+Gunnthra: Beaming Smile # HTML/assets/40px-Gunnthra_Beaming_Smile_Face_FC.webp.png # 742 # 20 # Cavalry # data-season
+Ursula: Clear-Blue Crow # HTML/assets/40px-Ursula_Clear-Blue_Crow_Face_FC.webp.png # 742 # 20 # Cavalry # data-season
+Leanne: Forest's Song # HTML/assets/40px-Leanne_Forests_Song_Face_FC.webp.png # 742 # 23 # Flying # data-five
+Elise: Bubbling Flower # HTML/assets/40px-Elise_Bubbling_Flower_Face_FC.webp.png # 740 # 2 # Cavalry # data-season
+Eirika: Anamnesis Lady # HTML/assets/40px-Eirika_Anamnesis_Lady_Face_FC.webp.png # 740 # 3 # Cavalry # data-five
+Leo: Sorcerous Prince # HTML/assets/40px-Leo_Sorcerous_Prince_Face_FC.webp.png # 740 # 3 # Cavalry # data-five
+Titania: Warm Knight # HTML/assets/40px-Titania_Warm_Knight_Face_FC.webp.png # 740 # 3 # Cavalry # data-grail
+Catria: Spring Whitewing # HTML/assets/40px-Catria_Spring_Whitewing_Face_FC.webp.png # 740 # 9 # Cavalry # data-season
+L'Arachel: Princess of Light # HTML/assets/40px-LArachel_Princess_of_Light_Face_FC.webp.png # 740 # 9 # Cavalry # data-four
+Olwen: Blue Mage Knight # HTML/assets/40px-Olwen_Blue_Mage_Knight_Face_FC.webp.png # 740 # 9 # Cavalry # data-five
+Pent: Fancy Fiance # HTML/assets/40px-Pent_Fancy_Fiance_Face_FC.webp.png # 740 # 9 # Cavalry # data-season
+Reinhardt: Thunder's Fist # HTML/assets/40px-Reinhardt_Thunders_Fist_Face_FC.webp.png # 740 # 9 # Cavalry # data-four
+Soren: Addled Strategist # HTML/assets/40px-Soren_Addled_Strategist_Face_FC.webp.png # 740 # 9 # Cavalry # data-season
+Ursula: Blue Crow # HTML/assets/40px-Ursula_Blue_Crow_Face_FC.webp.png # 740 # 9 # Cavalry # data-grail
+Cecilia: Etrurian General # HTML/assets/40px-Cecilia_Etrurian_General_Face_FC.webp.png # 740 # 15 # Cavalry # data-four
+Lilina: Blush of Youth # HTML/assets/40px-Lilina_Blush_of_Youth_Face_FC.webp.png # 740 # 15 # Cavalry # data-season
+Mist: Purest Spirit # HTML/assets/40px-Mist_Purest_Spirit_Face_FC.webp.png # 740 # 15 # Cavalry # data-season
+Olwen: Righteous Knight # HTML/assets/40px-Olwen_Righteous_Knight_Face_FC.webp.png # 740 # 15 # Cavalry # data-five
+Roy: Youthful Gifts # HTML/assets/40px-Roy_Youthful_Gifts_Face_FC.webp.png # 740 # 19 # Cavalry # data-season
+Linde: Summer Rays # HTML/assets/40px-Linde_Summer_Rays_Face_FC.webp.png # 740 # 20 # Cavalry # data-season
+Silque: Selfless Cleric # HTML/assets/40px-Silque_Selfless_Cleric_Face_FC.webp.png # 738 # 18 # Cavalry # data-season
+Forrest: Fashion Forward # HTML/assets/40px-Forrest_Fashion_Forward_Face_FC.webp.png # 736 # 18 # Cavalry # data-four
+Bruno: Masked Hare # HTML/assets/40px-Bruno_Masked_Hare_Face_FC.webp.png # 734 # 18 # Cavalry # data-season
+Clarine: Refined Noble # HTML/assets/40px-Clarine_Refined_Noble_Face_FC.webp.png # 734 # 18 # Cavalry # data-four
+Elise: Budding Flower # HTML/assets/40px-Elise_Budding_Flower_Face_FC.webp.png # 734 # 18 # Cavalry # data-five
+Genny: Dressed with Care # HTML/assets/40px-Genny_Dressed_with_Care_Face_FC.webp.png # 734 # 18 # Cavalry # data-season
+Laevatein: Kumade Warrior # HTML/assets/40px-Laevatein_Kumade_Warrior_Face_FC.webp.png # 734 # 18 # Cavalry # data-season
+Maribelle: Dire Damsel # HTML/assets/40px-Maribelle_Dire_Damsel_Face_FC.webp.png # 734 # 18 # Cavalry # data-five
+Nanna: Nordion Princess # HTML/assets/40px-Nanna_Nordion_Princess_Face_FC.webp.png # 734 # 18 # Cavalry # data-four
+Priscilla: Delicate Princess # HTML/assets/40px-Priscilla_Delicate_Princess_Face_FC.webp.png # 734 # 18 # Cavalry # data-four
+Veronica: Brave Princess # HTML/assets/40px-Veronica_Brave_Princess_Face_FC.webp.png # 734 # 18 # Cavalry # data-five
+Ethlyn: Spirited Princess # HTML/assets/40px-Ethlyn_Spirited_Princess_Face_FC.webp.png # 734 # 18 # Cavalry # data-four
+Alfonse: Prince of Askr # HTML/assets/40px-Alfonse_Prince_of_Askr_Face_FC.webp.png # 710 # 0 # Infantry # data-four
+Sharena: Princess of Askr # HTML/assets/40px-Sharena_Princess_of_Askr_Face_FC.webp.png # 710 # 6 # Infantry # data-four
+Anna: Commander # HTML/assets/40px-Anna_Commander_Face_FC.webp.png # 710 # 12 # Infantry # data-four
