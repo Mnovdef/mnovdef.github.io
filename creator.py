@@ -51,7 +51,7 @@ def create_tag(hero):
     tag = soup.new_tag('img', title=name, alt=name, src=path, decoding="async", width="40", height="40")
 
     tag_strings = ['data-duo', 'data-legend', 'data-grail', 'data-season', 'data-five']
-    hero_params = [hero['Duo'], hero['Legendary'], hero['Grail'], hero['Season'], hero['Five']]
+    hero_params = [hero['Duo'], hero['Legend'], hero['Grail'], hero['Season'], hero['Five']]
 
     # creates a dict with the couple (tag-attribute, bool_value) and adds it to the tag if bool_value = True
     for attribute, bool_value in dict(zip(tag_strings, hero_params)).items():
