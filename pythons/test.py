@@ -5,7 +5,6 @@ from pprint import pprint
 def my_urlopen(url: str):
     return urlopen(Request(url, headers={'User-Agent': 'Mozilla/5.0'})).read()
 
-
 def passive_cost_extractor(row_list: list):
     skills = []
     try:
@@ -34,15 +33,14 @@ def passive_cost_extractor(row_list: list):
 
     return skills
 
-
 def preleva_tutte_le_img_tag_da_html():
-    with open('maxscoretable.html') as html_file:
+    with open('../maxscoretable.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     table = soup.find_all('table', {'class': 'heroes_table'})[0]
     rows = table.find_all('tr')[1:]
 
-    with open('heroes_data.txt', 'w', encoding='utf-8') as file:
+    with open('../heroes_data.txt', 'w', encoding='utf-8') as file:
         for row in rows:
             score = int(row.th.string)
             tds = row.find_all('td')
@@ -61,7 +59,6 @@ def preleva_tutte_le_img_tag_da_html():
                             continue
 
                     file.write(hero_string + '\n')
-
 
 def print_four_star_passives():
     url = 'https://feheroes.gamepedia.com/Hero_availability_chart'
@@ -100,10 +97,3 @@ def print_four_star_passives():
                 html_file.write('<td>{}</td>\n'.format(img))
 
     # pprint(skills)
-
-
-with open('cheap_passives.html', encoding='utf-8') as html_file:
-    soup = BeautifulSoup(html_file.read())
-
-    tables = soup.find_all()
-

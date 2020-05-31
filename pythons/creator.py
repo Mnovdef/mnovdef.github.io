@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
-from pprint import pprint
-import HTML.auto_updater
-import urllib.request
+import pythons.auto_updater
 import math
 
 
@@ -11,10 +9,10 @@ import math
 
 # cleans the <td>s inside maxscoretable.html
 def code_cleaner():
-    with open('./maxscoretable.html', encoding='utf-8') as fp:
+    with open('../maxscoretable.html', encoding='utf-8') as fp:
         html = fp.read()
 
-    with open('./maxscoretable.html', 'w', encoding='utf-8') as html_file:
+    with open('../maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(html.replace('<td>\n               </td>', '<td></td>')
                         .replace('<td>\n      </td>', '<td></td>'))
 
@@ -124,7 +122,7 @@ def create_max_hero(hero: dict):
 # automate
 # inserts the given tag inside the html code
 def insert_tag_into_html(score, wp_type, tag):
-    with open ('maxscoretable.html') as html_file:
+    with open ('../maxscoretable.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     rows = soup.find('table', {'class': 'heroes_table'}).findAll('tr')
@@ -136,7 +134,7 @@ def insert_tag_into_html(score, wp_type, tag):
 
     rows[row_index].findAll('td')[weapon_index(wp_type)].append(tag)
 
-    with open ('maxscoretable.html', 'w', encoding='utf-8') as html_file:
+    with open ('../maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
     code_cleaner()
@@ -160,11 +158,11 @@ def manually_add_heroes():
 
 #
 def auto_create_from_file():
-    with open('./HTML/newheroes.txt') as data_file:
+    with open('../HTML/newheroes.txt') as data_file:
         heroes_list = data_file.readlines()
 
     for listed_hero in heroes_list:
-        hero_params = HTML.auto_updater.hero_web_hunter(listed_hero)
+        hero_params = pythons.auto_updater.hero_web_hunter(listed_hero)
         hero = create_max_hero(hero_params)
         score = score_calc(hero)
         tag = create_tag(hero)
