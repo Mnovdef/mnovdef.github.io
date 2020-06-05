@@ -1,182 +1,196 @@
-function hideArmors() {
-    var armoredCheckbox = document.getElementById('ArmoredCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("Armored".localeCompare(images[index].dataset.move) === 0){
-            if (armoredCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-
-function hideFlying() {
-    var flyingCheckbox = document.getElementById('FlyingCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("Flying".localeCompare(images[index].dataset.move) === 0){
-            if (flyingCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-function hideInfantry() {
-    var infantryCheckbox = document.getElementById('InfantryCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("Infantry".localeCompare(images[index].dataset.move) === 0){
-            if (infantryCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-function hideCavalry() {
-    var cavalryCheckbox = document.getElementById('CavalryCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("Cavalry".localeCompare(images[index].dataset.move) === 0){
-            if (cavalryCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-function hideLegend() {
-    var legendCheckbox = document.getElementById('LegendCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("true".localeCompare(images[index].dataset.legend) === 0){
-            if (legendCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-function hideGrail() {
-    var grailCheckbox = document.getElementById('GrailCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("true".localeCompare(images[index].dataset.grail) === 0){
-            if (grailCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-function hideSeasonal() {
-    var seasonalCheckbox = document.getElementById('SeasonCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("true".localeCompare(images[index].dataset.season) === 0){
-            if (seasonalCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-function hideDuo() {
-    var duoCheckbox = document.getElementById('DuoCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("true".localeCompare(images[index].dataset.duo) === 0){
-            if (duoCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-function hideFiveStar() {
-    var fiveCheckbox = document.getElementById('FiveStarCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("true".localeCompare(images[index].dataset.five) === 0){
-            if (fiveCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
-
-function hideFourStar() {
-    var fourCheckbox = document.getElementById('FourStarCheckbox');
-    var images = document.getElementsByTagName('img');
-
-    for (let index=0; index < images.length; index++) {
-        if ("true".localeCompare(images[index].dataset.four) === 0){
-            if (fourCheckbox.checked === true) {
-                images[index].style.display = 'inline';
-            } else {
-                images[index].style.display = 'none';
-            }
-        }
-    }
-}
+//function hideArmors() {
+//    var armoredCheckbox = document.getElementById('ArmoredCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("Armored".localeCompare(images[index].dataset.move) === 0){
+//            if (armoredCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//
+//function hideFlying() {
+//    var flyingCheckbox = document.getElementById('FlyingCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("Flying".localeCompare(images[index].dataset.move) === 0){
+//            if (flyingCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//function hideInfantry() {
+//    var infantryCheckbox = document.getElementById('InfantryCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("Infantry".localeCompare(images[index].dataset.move) === 0){
+//            if (infantryCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//function hideCavalry() {
+//    var cavalryCheckbox = document.getElementById('CavalryCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("Cavalry".localeCompare(images[index].dataset.move) === 0){
+//            if (cavalryCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//function hideLegend() {
+//    var legendCheckbox = document.getElementById('LegendCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("true".localeCompare(images[index].dataset.legend) === 0){
+//            if (legendCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//function hideGrail() {
+//    var grailCheckbox = document.getElementById('GrailCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("true".localeCompare(images[index].dataset.grail) === 0){
+//            if (grailCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//function hideSeasonal() {
+//    var seasonalCheckbox = document.getElementById('SeasonCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("true".localeCompare(images[index].dataset.season) === 0){
+//            if (seasonalCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//function hideDuo() {
+//    var duoCheckbox = document.getElementById('DuoCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("true".localeCompare(images[index].dataset.duo) === 0){
+//            if (duoCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//function hideFiveStar() {
+//    var fiveCheckbox = document.getElementById('FiveStarCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("true".localeCompare(images[index].dataset.five) === 0){
+//            if (fiveCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
+//
+//function hideFourStar() {
+//    var fourCheckbox = document.getElementById('FourStarCheckbox');
+//    var images = document.getElementsByTagName('img');
+//
+//    for (let index=0; index < images.length; index++) {
+//        if ("true".localeCompare(images[index].dataset.four) === 0){
+//            if (fourCheckbox.checked === true) {
+//                images[index].style.display = 'inline';
+//            } else {
+//                images[index].style.display = 'none';
+//            }
+//        }
+//    }
+//}
 
 
 // function called by all checkboxes, using their own data-___ tag as parameter
-// not finished, TODO
+// Armored, Flying, Infantry, Cavalry
+// duo, legend, grail, season, five, four
 function filterone(caller_data_tag) {
+    var moveDataTags = ['Armored', 'Flying', 'Infantry', 'Cavalry'];
+    var moveCheckBoxes = [document.getElementById('ArmoredCheckbox'),  document.getElementById('FlyingCheckbox'),
+                          document.getElementById('InfantryCheckbox'), document.getElementById('CavalryCheckbox')]
 
-    var armoredCheckbox = document.getElementById('ArmoredCheckbox');
-    var flyingCheckbox = document.getElementById('FlyingCheckbox');
-    var infantryCheckbox = document.getElementById('InfantryCheckbox');
-    var cavalryCheckbox = document.getElementById('CavalryCheckbox');
+    var typeDataTags = ['duo', 'legend', 'grail', 'season', 'five', 'four']
 
-    var fiveCheckbox = document.getElementById('FiveStarCheckbox');
-    var fourCheckbox = document.getElementById('FourStarCheckbox');
-
-    var grailCheckbox = document.getElementById('GrailCheckbox');
-    var duoCheckbox = document.getElementById('DuoCheckbox');
-    var seasonalCheckbox = document.getElementById('SeasonCheckbox');
-    var legendCheckbox = document.getElementById('LegendCheckbox');
+    var typeCheckboxes = [document.getElementById('DuoCheckbox'),      document.getElementById('LegendCheckbox'),
+                          document.getElementById('GrailCheckbox'),    document.getElementById('SeasonCheckbox'),
+                          document.getElementById('FiveStarCheckbox'), document.getElementById('FourStarCheckbox')]
 
     var images = document.getElementsByTagName('img');
 
-    for (let index=0; index < images.length; index++) {
-         if ("true".localeCompare(images[index].dataset.caller_data_tag) === 0){
-             if (fourCheckbox.checked === true) {
-                 images[index].style.display = 'inline';
-             } else {
-                 images[index].style.display = 'none';
-             }
-         }
+
+    if (moveDataTags.includes(caller_data_tag)) {
+        var selectedCheckbox = moveCheckBoxes[moveDataTags.indexOf(caller_data_tag)]
+
+        for (let index=0; index < images.length; index++) {
+            if (caller_data_tag.localeCompare(images[index].dataset.move) === 0){
+                if (selectedCheckbox.checked === true) {
+                    images[index].style.display = 'inline';
+                } else {
+                    images[index].style.display = 'none';
+                }
+            }
+        }
+    } else {
+        var selectedCheckbox = typeCheckboxes[typeDataTags.indexOf(caller_data_tag)]
+
+        for (let index=0; index < images.length; index++) {
+            if ("true".localeCompare(images[index].dataset[caller_data_tag]) === 0){
+                if (selectedCheckbox.checked === true) {
+                    images[index].style.display = 'inline';
+                } else {
+                    images[index].style.display = 'none';
+                }
+            }
+        }
     }
 }
 
@@ -198,7 +212,6 @@ function reset() {
     text.value = ""
 }
 
-
 function textsearch() {
     var images = document.getElementsByTagName('img');
     var text = document.getElementById('searchbar').value;
@@ -212,7 +225,6 @@ function textsearch() {
         }
     }
 }
-
 
 
 function create(temp) {
@@ -233,7 +245,6 @@ function create(temp) {
     }
 }
 
-
 function readTextFile() {
     var file = 'heroes_data.txt';
     var rawFile = new XMLHttpRequest();
@@ -249,7 +260,6 @@ function readTextFile() {
     rawFile.send(null);
 }
 
-
 function handle_text(text) {
     var rows = text.split('\n');
     for (let row=0; row<rows.length; row++) {
@@ -260,8 +270,6 @@ function handle_text(text) {
     }
 }
 
-
-// creates the image tag given parameter and returns it
 function createImg(name, src, move_type, attr) {
     var img = document.createElement('img')
     img.alt = name
@@ -279,7 +287,6 @@ function createImg(name, src, move_type, attr) {
 
     return img
 }
-
 
 function appendImg(img, score, wp_col) {
     var rows = document.getElementById('heroes_table').rows;
