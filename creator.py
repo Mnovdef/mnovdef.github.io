@@ -156,7 +156,8 @@ def manually_add_heroes():
     return
 
 
-#
+# automatedscript to generate and insert tags into HTML
+# put heroes names into newheroes.html before running and watch it go
 def auto_create_from_file():
     with open('HTML/newheroes.txt') as data_file:
         heroes_list = data_file.readlines()
@@ -167,7 +168,8 @@ def auto_create_from_file():
         score = score_calc(hero)
         tag = create_tag(hero)
 
-        print('\n\n{} scores {}\n{}'.format(hero['Name'], score, tag))
+        print('**{}** scores **{}** points.\n{}'.format(hero['Name'], score, tag))
+        pythons.auto_updater.print_hero_info(hero)
 
         response = input('(Y/N) Automatically add? ').upper()
         if 'Y' in response:
@@ -176,6 +178,6 @@ def auto_create_from_file():
     return
 
 # code_cleaner()
-# auto_create_from_file()
+auto_create_from_file()
 
-manually_add_heroes()
+# manually_add_heroes()
