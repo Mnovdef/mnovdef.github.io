@@ -122,19 +122,19 @@ def create_max_hero(hero: dict):
 # automate
 # inserts the given tag inside the html code
 def insert_tag_into_html(score, wp_type, tag):
-    with open ('maxscoretable.html') as html_file:
+    with open('maxscoretable.html') as html_file:
         soup = BeautifulSoup(html_file, 'html.parser')
 
     rows = soup.find('table', {'class': 'heroes_table'}).findAll('tr')
 
     row_index = 0
-    for i in range(len(rows)):
+    for i in range(1, len(rows)):
         if str(score) in rows[i].th.string:
             row_index = i
 
     rows[row_index].findAll('td')[weapon_index(wp_type)].append(tag)
 
-    with open ('maxscoretable.html', 'w', encoding='utf-8') as html_file:
+    with open('maxscoretable.html', 'w', encoding='utf-8') as html_file:
         html_file.write(soup.prettify())
 
     code_cleaner()
@@ -172,7 +172,8 @@ def auto_create_from_file():
         pythons.auto_updater.print_hero_info(hero)
 
         response = input('(Y/N) Automatically add? ').upper()
-        if 'Y' in response:
+        if 'Y' in response.upper():
+            print("score = {}\nwp_type= {}\n".format(score, hero['WeaponType']))
             insert_tag_into_html(score, hero['WeaponType'], tag)
 
     return

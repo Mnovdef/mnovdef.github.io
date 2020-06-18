@@ -18,7 +18,8 @@ def my_urlopen(url: str):
 # my_urlopen but for gamepedia
 # this does not work if url contains weird characters
 def gamepedia(hero: str):
-    return urlopen(Request('https://feheroes.gamepedia.com/' + quote(hero.replace('\n', '')))).read()
+    print('https://feheroes.gamepedia.com/' + hero.replace('\n', '').replace(' ', '_'))
+    return urlopen(Request('https://feheroes.gamepedia.com/' + quote(hero.replace('\n', '').replace(' ', '_')))).read()
 
 
 # returns 170 if the hero has access to a Duel skill
@@ -53,13 +54,18 @@ def passive_cost_extractor(row_list: list):
 
     skill_type_1 = row_list[1].find_all('th')[-1].string
     rowspan_1 = int(row_list[1].find_all('th')[-1]['rowspan'])
-    skill_cost_1 = int(row_list[rowspan_1].find_all('td')[3].string)
-
+    try:
+        skill_cost_1 = int(row_list[rowspan_1].find_all('td')[3].string)
+    except ValueError:
+        skill_cost_1 = 240
     costs[skill_type_1] = skill_cost_1
 
     skill_type_2 = row_list[1+rowspan_1].find_all('th')[-1].string
     rowspan_2 = int(row_list[1+rowspan_1].find_all('th')[-1]['rowspan'])
-    skill_cost_2 = int(row_list[rowspan_1+rowspan_2].find_all('td')[3].string)
+    try:
+        skill_cost_2 = int(row_list[rowspan_1+rowspan_2].find_all('td')[3].string)
+    except ValueError:
+        skill_cost_2 = 240
     costs[skill_type_2] = skill_cost_2
 
     try:
@@ -112,7 +118,8 @@ def hero_web_hunter(hero_name: str):
 
     # cleaning
     wp_type = wp_type.replace('Sword', 'Red Sword').replace('Lance', 'Blue Lance') \
-                     .replace('Axe', 'Green Axe').replace('Staff', 'Colorless Staff')
+                     .replace('Axe', 'Green Axe').replace('Staff', 'Colorless Staff')\
+                     .replace('bow', 'Bow')
 
     # Might = Weapon, Range = Assist, Cooldown = Special, Type = Passives
     for table in tables:
