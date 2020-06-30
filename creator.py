@@ -111,7 +111,8 @@ def create_max_hero(hero: dict):
 
     max_hero = {'Name': hero['Name'], 'WeaponType': hero['WeaponType'], 'MoveType': hero['MoveType'],
                 'BST': max(hero['BST']+3+(not hero['Grail']), hero['Duel_BST'], mv_bst),
-                'PRF': 350 + 50*hero['PRF'], 'Assist': max(400-100*healer, hero['Assist']),
+                'PRF': 350 + 50*hero['PRF'],
+                'Assist': max(400-100*healer, hero['Assist']),
                 'Special': max(500-200*healer, hero['Special']),
                 'A': max(300, hero['A']), 'B': max (240, hero['B']), 'C': max(300, hero['C']),
                 'Duo': hero['Duo'], 'Legend': hero['Legend'], 'Grail': hero['Grail'],
