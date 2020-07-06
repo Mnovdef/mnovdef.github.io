@@ -115,7 +115,7 @@ def create_tag():
     # tag creation
     name = hero_name_entry.get().replace('\n', "")
     soup = BeautifulSoup('', 'html.parser')
-    path = 'HTML/assets/45px-' + name.replace(" ", '_') + '_Face_FC.webp.png'
+    path = 'HTML/assets/45px-' + name.replace(" ", '_').replace(':', '').replace("'", '') + '_Face_FC.webp.png'
     tag = soup.new_tag('img', title=name, alt=name, src=path, decoding="async", width="40", height="40")
 
     tag['data-move'] = mv_type.get()
